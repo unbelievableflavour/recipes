@@ -10,8 +10,8 @@ public class StackManager : Object {
     private const string WELCOME_VIEW_ID = "welcome-view";
     private const string PROGRESS_VIEW_ID = "progress-view";
     private const string DETAIL_VIEW_ID = "detail-view";
-
-    DetailView detailView;
+    public Widgets.WebView preview_view_content;
+    private Gtk.ScrolledWindow preview_view;
     public Gtk.Window mainWindow;
 
     StackManager() {
@@ -31,15 +31,17 @@ public class StackManager : Object {
         return this.stack;
     }
 
-    public void loadViews(Gtk.Window window) {
-        detailView = new DetailView();
+    public void loadViews(MainWindow window) {
+        preview_view = new Gtk.ScrolledWindow (null, null);
+        preview_view_content = new Widgets.WebView (window);
+        preview_view.add (preview_view_content);
         mainWindow = window;
 
         stack.add_named (new ListView(), LIST_VIEW_ID);
         stack.add_named (new NotFoundView(), NOT_FOUND_VIEW_ID);
         stack.add_named (new WelcomeView(), WELCOME_VIEW_ID);
         stack.add_named (new ProgressView(), PROGRESS_VIEW_ID);
-        stack.add_named (detailView, DETAIL_VIEW_ID);
+        stack.add_named (preview_view, DETAIL_VIEW_ID);
 
         stack.notify["visible-child"].connect (() => {
             var headerBar = HeaderBar.get_instance();
@@ -72,7 +74,7 @@ public class StackManager : Object {
    }
 
    public void setDetailRecipe(Recipe recipe) {
-        detailView.loadRecipe(recipe);
+        preview_view_content.loadRecipe(recipe);
    }
 }
 }
