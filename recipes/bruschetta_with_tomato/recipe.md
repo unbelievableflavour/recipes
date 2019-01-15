@@ -1,5 +1,6 @@
-#Omschrijving:
+![Bruschetta with tomatoes](https://raw.githubusercontent.com/bartzaalberg/snaptastic/master/screenshot.png)
 
+#Omschrijving:
 
 #Ingredienten:
 
@@ -9,7 +10,6 @@
 * 2 teentjes knoflook
 * Scheutje olijfolie
 * Snufje zwarte peper
-
 
 #Stappen:
 

@@ -3,7 +3,6 @@ using Granite.Widgets;
 namespace Application {
 public class DetailViewBanner : ListBoxRow {
 
-    private ResponseTranslator responseTranslator = new ResponseTranslator ();
     private Gtk.Image icon = new Gtk.Image.from_icon_name ("package", Gtk.IconSize.DND);
     Gtk.Box package_row;
 
@@ -21,9 +20,6 @@ public class DetailViewBanner : ListBoxRow {
     }
 
     public void reloadView(Recipe recipe){
-        
-        var installedPackages = responseTranslator.getInstalledPackages();
-        var refreshablePackages = responseTranslator.getRefreshablePackages();
 
         name_label = new Gtk.Label(recipe.getName().strip());
         name_label.get_style_context ().add_class ("detail-view-banner-title");

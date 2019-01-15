@@ -6,8 +6,6 @@ public class ListBoxRow : Gtk.ListBoxRow {
     public Gtk.Label name_label;
     public Recipe recipe;
 
-    private CommandHandler commandHandler = new CommandHandler();
-
     public Gtk.Label generateNameLabel(string name){
         var name_label = new Gtk.Label ("<big><b>%s</b></big>".printf (name));
         name_label.use_markup = true;

@@ -5,7 +5,6 @@ public class ListBox : Gtk.ListBox{
 
     static ListBox? instance;
 
-    private ResponseTranslator responseTranslator = new ResponseTranslator ();
     private FileManager fileManager = FileManager.get_instance ();
     private StackManager stackManager = StackManager.get_instance();
 

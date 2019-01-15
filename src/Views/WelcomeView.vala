@@ -4,8 +4,6 @@ namespace Application {
 public class WelcomeView : Gtk.ScrolledWindow {
 
     private StackManager stackManager = StackManager.get_instance();
-    private CommandHandler commandHandler = new CommandHandler();
-    private ResponseTranslator responseTranslator = new ResponseTranslator();
 
     public WelcomeView(){
         var welcome_view = new Welcome(_("Welcome to cookbook"), _("Click below to find a recipe!"));
