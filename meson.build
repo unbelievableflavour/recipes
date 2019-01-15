@@ -67,8 +67,8 @@ executable(
     dependencies: [
         dependency('gtk+-3.0'),
         dependency('granite'),
-        dependency('snapd-glib'),
         dependency('webkit2gtk-4.0'),
+        dependency('json-glib-1.0'),
         libmarkdown,
     ],
     vala_args: [

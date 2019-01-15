@@ -8,8 +8,7 @@ Build-Depends: meson,
                libgtk-3-dev,
                libwebkit2gtk-4.0-dev,
                valac,
-               libmarkdown2-dev,
-               libsnapd-glib-dev
+               libmarkdown2-dev
 
 Package: com.github.bartzaalberg.recipes
 Architecture: any

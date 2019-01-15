@@ -1,14 +1,9 @@
 namespace Application {
 public class ListView : Gtk.ScrolledWindow {
        
-    private ListBox listBox = ListBox.get_instance();
-    private FileManager fileManager; 
+    private ListBox listBox = ListBox.get_instance(); 
 
     public ListView(){ 
-
-        fileManager = FileManager.get_instance();
-        var recipes = fileManager.getRecipes();
-
         var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 6);
         box.add(listBox);
 

@@ -31,7 +31,7 @@ public class ListBox : Gtk.ListBox{
 
         stackManager.getStack().visible_child_name = "list-view";
 
-        var recipes = fileManager.getRecipes();
+        var recipes = fileManager.getRecipesFromJSON();
 
         emptyList();
         foreach (Recipe recipe in recipes) {

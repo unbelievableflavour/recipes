@@ -37,6 +37,39 @@ public class FileManager : Object {
         return fileString;
     }
 
+    public Recipe[] getRecipesFromJSON (){
+        var parser = new Json.Parser ();
+        try {
+            parser.load_from_file ((string) "../data/recipes.json");
+            return get_data (parser);
+            // request_page_success(list);
+        } catch (Error e) {
+            new Alert("Request page fail", e.message);
+        }
+        return null;
+    }
+    
+    private Recipe[] get_data (Json.Parser parser) {
+        Recipe[] recipes = new Recipe[0];
+
+        var node = parser.get_root ();
+        unowned Json.Array array = node.get_array ();
+        foreach (unowned Json.Node item in array.get_elements ()) {
+            var object = item.get_object();
+
+            var file = getRecipeFile(object.get_string_member ("id"));
+            var markdownFile = fileToString(file);
+
+            var recipe = new Recipe();
+            recipe.setId(object.get_string_member ("id"));
+            recipe.setName(object.get_string_member ("title"));
+            recipe.setMarkdownFile(markdownFile);
+
+            recipes += recipe;
+        }
+        return recipes;
+    }
+
     public Recipe[] getRecipes (){
         Recipe[] recipes = new Recipe[0];
 
@@ -62,16 +95,11 @@ public class FileManager : Object {
     }
 
     private File getRecipeFile(string fileName){
-        var file = File.new_for_path ("../recipes/" + fileName + "/recipe.md");
-        if (!file.query_exists ()) {
-            try {
-                file.create (FileCreateFlags.REPLACE_DESTINATION, null);
-                getRecipeFile(fileName);
-            } catch (Error e) {
-                error ("%s", e.message);
-            }
+        try {
+            return File.new_for_uri ("https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/" + fileName + "/recipe.md");
+        } catch (Error e) {
+            error ("%s", e.message);
         }
-        return file;
     }
 }
 }
