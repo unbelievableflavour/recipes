@@ -42,7 +42,6 @@ public class FileManager : Object {
         try {
             parser.load_from_file ((string) "../data/recipes.json");
             return get_data (parser);
-            // request_page_success(list);
         } catch (Error e) {
             new Alert("Request page fail", e.message);
         }
@@ -63,6 +62,8 @@ public class FileManager : Object {
             var recipe = new Recipe();
             recipe.setId(object.get_string_member ("id"));
             recipe.setName(object.get_string_member ("title"));
+            recipe.setThumbnail(object.get_string_member ("thumbnail"));
+            recipe.setAuthor(object.get_string_member ("author"));
             recipe.setMarkdownFile(markdownFile);
 
             recipes += recipe;

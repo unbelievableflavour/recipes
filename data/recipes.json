@@ -2,16 +2,19 @@
     {
         "id": "bruschetta_with_tomato",
         "title": "Bruschetta with Tomatoes",
-        "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/snaptastic/master/screenshot.png"
+        "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/snaptastic/master/screenshot.png",
+        "author": "Bart Zaalberg"
     },
     {
         "id": "another_recipe",
         "title": "Another recipe",
-        "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot.png"
+        "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot.png",
+        "author": "Bart Zaalberg"
     },
     {
         "id": "ravioli_lasagne",
         "title": "Ravioli Lasagne",
-        "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot.png"
+        "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot.png",
+        "author": "Bart Zaalberg"
     }
 ]

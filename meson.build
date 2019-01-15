@@ -48,6 +48,7 @@ executable(
     'src/Recipe.vala',
     'src/MainWindow.vala',
     'src/ListBoxRow.vala',
+    'src/IconHandler.vala',
     'src/InstalledPackageRow.vala',
     'src/ListBox.vala',
     'src/FileManager.vala',
