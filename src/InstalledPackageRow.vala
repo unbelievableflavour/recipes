@@ -9,7 +9,7 @@ public class InstalledPackageRow : ListBoxRow {
 
             this.recipe = recipe;
             IconHandler iconHandler = new IconHandler();
-
+            iconHandler.set_icon_size(100);
             var icon = iconHandler.get_icon_from_string(recipe.getThumbnail());
             name_label = generateNameLabel(recipe.getName());
 

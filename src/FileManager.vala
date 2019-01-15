@@ -40,7 +40,7 @@ public class FileManager : Object {
     public Recipe[] getRecipesFromJSON (){
         var parser = new Json.Parser ();
         try {
-            parser.load_from_file ((string) "../data/recipes.json");
+            parser.load_from_file ("../data/recipes.json");
             return get_data (parser);
         } catch (Error e) {
             new Alert("Request page fail", e.message);
@@ -68,30 +68,6 @@ public class FileManager : Object {
 
             recipes += recipe;
         }
-        return recipes;
-    }
-
-    public Recipe[] getRecipes (){
-        Recipe[] recipes = new Recipe[0];
-
-        try{
-            var directory = Dir.open("../recipes");
-
-            while ((recipeDirName = directory.read_name()) != null) {
-
-                var file = getRecipeFile(recipeDirName);
-                var markdownFile = fileToString(file);                
-                
-                var recipe = new Recipe();
-                recipe.setName(recipeDirName);
-                recipe.setMarkdownFile(markdownFile);
-
-                recipes += recipe;
-            }
-        } catch (Error e){
-            new Alert("An error occured", e.message);
-        }
-
         return recipes;
     }
 
