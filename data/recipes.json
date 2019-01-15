@@ -8,5 +8,10 @@
         "id": "another_recipe",
         "title": "Another recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot.png"
+    },
+    {
+        "id": "ravioli_lasagne",
+        "title": "Ravioli Lasagne",
+        "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot.png"
     }
 ]
