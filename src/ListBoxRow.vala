@@ -1,7 +1,7 @@
 using Granite.Widgets;
 
 namespace Application {
-public class ListBoxRow : Gtk.ListBoxRow {
+public class ListBoxRow : Gtk.Box {
 
     public Gtk.Label name_label;
     public Recipe recipe;

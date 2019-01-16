@@ -6,7 +6,6 @@ public class StackManager : Object {
     private Gtk.Stack stack;
     private const string LIST_VIEW_ID = "list-view";
     private const string EMPTY_VIEW_ID = "empty-view";
-    private const string NOT_FOUND_VIEW_ID = "not-found-view";
     private const string WELCOME_VIEW_ID = "welcome-view";
     private const string PROGRESS_VIEW_ID = "progress-view";
     private const string DETAIL_VIEW_ID = "detail-view";
@@ -38,7 +37,6 @@ public class StackManager : Object {
         mainWindow = window;
 
         stack.add_named (new ListView(), LIST_VIEW_ID);
-        stack.add_named (new NotFoundView(), NOT_FOUND_VIEW_ID);
         stack.add_named (new WelcomeView(), WELCOME_VIEW_ID);
         stack.add_named (new ProgressView(), PROGRESS_VIEW_ID);
         stack.add_named (preview_view, DETAIL_VIEW_ID);

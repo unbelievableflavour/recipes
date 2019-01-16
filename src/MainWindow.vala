@@ -4,12 +4,13 @@ namespace Application {
 public class MainWindow : Gtk.Window{
 
     private StackManager stackManager = StackManager.get_instance();
+    private FileManager fileManager = FileManager.get_instance();
     private HeaderBar headerBar = HeaderBar.get_instance();
 
     public MainWindow (Gtk.Application application) {
         Object (application: application,
                 resizable: true,
-                height_request: Constants.APPLICATION_WIDTH,
+                height_request: Constants.APPLICATION_HEIGHT,
                 width_request: Constants.APPLICATION_WIDTH);
     }
 
@@ -31,9 +32,10 @@ public class MainWindow : Gtk.Window{
     private void addShortcuts(){
         key_press_event.connect ((e) => { 
             switch (e.keyval) {
-                case Gdk.Key.u:
-                  if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
-                    stackManager.getStack().visible_child_name = "list-view";
+                case Gdk.Key.r:
+                  if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
+                    stackManager.getStack().visible_child_name = "progress-view";
+                    fileManager.getRecipesFromJSON();
                   }
                   break;
                 case Gdk.Key.h:

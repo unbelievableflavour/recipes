@@ -1,26 +1,29 @@
-@define-color textColorPrimary #fff;
-@define-color textColorPrimaryShadow shade(@colorPrimary, 0.85);
-
-.h1,
-.h2 {
-    font-family: Ubuntu;
+.photo {
+    background: none;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 3px;
+    border: none;
 }
 
-.h2 {
-    color: @colorPrimary;
+.photo:hover {
+    box-shadow: 0 14px 28px #c4daff, 0 10px 10px #c4daff;
+    background: linear-gradient(-45deg, #c4daff 0%, #009efd 100%);
+    padding: 3px;
 }
 
-.view-mode-button {
-    color: @fff;
-    text-shadow: 0 1px @textColorPrimaryShadow;
+.backimg {
+    background: #2ebf91;
+    background: linear-gradient(-45deg, #c4daff 0%, #009efd 100%);
+    padding: 1px;
+    border-radius: 2px;
 }
 
-.detail-view-banner {
-    background-color: #F5F5F5;
+.recipename {
+    font-size: 1.3em;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: none;
 }
-
-.detail-view-banner-title {
-    font-family: Ubuntu;
-    font-size:30px;
-}
-

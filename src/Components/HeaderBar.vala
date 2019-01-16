@@ -32,16 +32,14 @@ public class HeaderBar : Gtk.HeaderBar {
     }
 
     private void generateViewMode(){
-	    //Create two labels. Assign names for a check later on.
 	    var label1 = new Gtk.Label("Home");
         label1.get_style_context().add_class("view-mode-button");
 	    label1.name = "home";
-            
-	    var label2 = new Gtk.Label("Updates");
+
+	    var label2 = new Gtk.Label("Recipes");
         label2.get_style_context().add_class("view-mode-button");
-	    label2.name = "updates";
-        
-	    //Add each label to the Mode Button.
+	    label2.name = "recipes";
+
 	    view_mode.append(label1);
 	    view_mode.append(label2);
         view_mode.no_show_all = true;

@@ -1,29 +1,57 @@
 using Granite.Widgets;
 
 namespace Application {
-public class InstalledPackageRow : ListBoxRow {
+public class InstalledPackageRow : Gtk.Box {
 
-    private Gtk.Box vertical_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 6);
+    private FileManager fileManager = FileManager.get_instance ();
+    private StackManager stackManager = StackManager.get_instance();
+    private Granite.AsyncImage     image;
+    private Gtk.Overlay            overlay;
+    private Gtk.Button             photo_button;
+    private Recipe                 recipe;
 
-    public InstalledPackageRow (Recipe recipe,Recipe[] recipes){
+    public InstalledPackageRow (Recipe recipe){
+        this.recipe = recipe;
+        this.can_focus = false;
+        this.orientation = Gtk.Orientation.VERTICAL;
+        this.halign = Gtk.Align.CENTER;
+        this.valign = Gtk.Align.START;
+        this.margin_start = 8;
+        this.margin_end = 8;
+        this.margin_top = 8;
+        this.margin_bottom = 8;
 
-            this.recipe = recipe;
-            IconHandler iconHandler = new IconHandler();
-            iconHandler.set_icon_size(100);
-            var icon = iconHandler.get_icon_from_string(recipe.getThumbnail());
-            name_label = generateNameLabel(recipe.getName());
+        image = new Granite.AsyncImage(true, true);
+        image.get_style_context ().add_class ("backimg");
 
-            var summary_label = generateSummaryLabel(recipe.getAuthor());
+        image.set_from_file_async.begin(
+            File.new_for_uri (recipe.getThumbnail()), 300, 200, false);
+        image.has_tooltip = true;
+        image.set_tooltip_text (recipe.getName());
 
-            vertical_box.add (name_label);
-            vertical_box.add (summary_label);
+        overlay = new Gtk.Overlay();
+        overlay.can_focus = false;
+        overlay.halign = Gtk.Align.CENTER;
+        overlay.add (image);
 
-            var package_row = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
-            package_row.margin = 12;
-            package_row.add(icon);
-            package_row.add (vertical_box);
+        photo_button = new Gtk.Button();
+        photo_button.get_style_context ().add_class ("photo");
+        photo_button.add(overlay);
+        photo_button.can_focus = false;
 
-            this.add (package_row);
-        }
+        photo_button.button_release_event.connect ( (event) => {
+            stackManager.setDetailRecipe(this.recipe);
+            stackManager.getStack().visible_child_name = "detail-view";
+            return true;
+        });
+
+        var label_name = new Gtk.Label(recipe.getName());
+        label_name.get_style_context ().add_class ("recipename");
+        label_name.margin_top = 8;
+        label_name.halign = Gtk.Align.CENTER;
+
+        this.add(photo_button);
+        this.add (label_name);
+    }
 }
 }

@@ -11,7 +11,7 @@ namespace Application.Constants {
     public const string APP_YEARS = "2019";
 
     public const int APPLICATION_HEIGHT = 700;
-    public const int APPLICATION_WIDTH = 890;
+    public const int APPLICATION_WIDTH = 992;
 
-    public const Gdk.RGBA BRAND_COLOR = { 2.50, 0.35, 0.22, 1 };
+    public const Gdk.RGBA BRAND_COLOR = { 255, 255, 255, 255 };
 }
