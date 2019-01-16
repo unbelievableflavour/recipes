@@ -42,6 +42,7 @@ These dependencies must be present before building
  `sudo apt install valac libgtk-3-dev libgranite-dev libwebkit2gtk-4.0-dev libmarkdown2-dev json-glib-1.0 libsoup2.4-dev`
 
 ### Building
+
 ```
 meson build --prefix=/usr
 cd build
@@ -49,4 +50,11 @@ ninja
 ```
 
 ### Installing
+
 `sudo ninja install`
+
+### Update .pot file
+
+Call the following command from the build folder:
+
+`ninja com.github.bartzaalberg.recipes-pot`
