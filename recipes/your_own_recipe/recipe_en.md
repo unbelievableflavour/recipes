@@ -10,10 +10,9 @@ Do you want your own recipe to show up in the app?
 ###Steps for PR:
 
 1. Fork the repository.
-2. Create a folder with the name of your recipe under 'recipes' in the repository. (example '/recipes/very_nice_meat_recipe')
-3. Create the recipe file 'recipe_<the language you are creating in>.md' in the folder. (example 'recipe_en.md' for english)
-4. Add your recipe to the '/data/recipes.json' as followed
-
+2. Create a folder with the name of your recipe under `/recipes` in the repository. (example `/recipes/very_nice_meat_recipe`)
+3. Create the recipe file `recipe_<the language you are creating in>.md` in the folder. (example `recipe_en.md` for english)
+4. Add your recipe to the `/data/recipes.json` as followed
 ```
 {
     "id": "very_nice_meat_recipe",
@@ -23,7 +22,8 @@ Do you want your own recipe to show up in the app?
     "languages": ["en"]
 },
 ```
-5. Thats it! You can commit and create the pull request.
+
+Thats it! You can commit and create the pull request.
 
 #### Image
 

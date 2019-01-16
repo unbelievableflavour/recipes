@@ -14,6 +14,12 @@ A cookbook for Elementary OS
 
 Do some cooking with some easy recipes. All the recipes are written in simple markdown. Don't see what you like? Add your own!
 
+##Add your own recipe
+
+Do you have an awesome recipe you want to share? Please dont hesitate to add it to the repository!
+
+Instructions can be found [here](https://github.com/bartzaalberg/recipes/blob/master/recipes/your_own_recipe/recipe_en.md)
+
 ## Installation
 
 First you will need to install elementary SDK
