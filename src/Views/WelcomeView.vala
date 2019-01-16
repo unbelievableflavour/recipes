@@ -4,6 +4,7 @@ namespace Application {
 public class WelcomeView : Gtk.ScrolledWindow {
 
     private StackManager stackManager = StackManager.get_instance();
+    private FileManager fileManager = FileManager.get_instance();
 
     public WelcomeView(){
         var welcome_view = new Welcome(_("Welcome to cookbook"), _("Click below to find a recipe!"));
@@ -12,7 +13,8 @@ public class WelcomeView : Gtk.ScrolledWindow {
         welcome_view.activated.connect ((option) => {
             switch (option) {		
                 case 0:
-					stackManager.getStack().visible_child_name = "list-view";
+                    stackManager.getStack().visible_child_name = "progress-view";
+                    fileManager.getRecipesFromJSON();
 					break;
             }
         });

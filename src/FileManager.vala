@@ -38,16 +38,28 @@ public class FileManager : Object {
     }
 
     public Recipe[] getRecipesFromJSON (){
-        var parser = new Json.Parser ();
-        try {
-            parser.load_from_file ("../data/recipes.json");
-            return get_data (parser);
-        } catch (Error e) {
-            new Alert("Request page fail", e.message);
-        }
-        return null;
+        var session = new Soup.Session();
+        var message = new Soup.Message ("GET", "https://raw.githubusercontent.com/bartzaalberg/recipes/master/data/recipes.json");
+        Recipe[] recipes = new Recipe[0]; 
+        session.queue_message (message, (sess, mess) => {
+            if (mess.status_code == 200) {
+                var parser = new Json.Parser ();
+                try {
+                    parser.load_from_data ((string) mess.response_body.flatten ().data, -1);
+
+                    ListBox listBox = ListBox.get_instance();
+                    listBox.getInstalledPackages(get_data (parser));
+
+                } catch (Error e) {
+                    new Alert("Request page fail", e.message);
+                }
+            } else {
+                new Alert("Request page fail", @"status code: $(mess.status_code)");
+            }
+        });
+        return recipes;
     }
-    
+
     private Recipe[] get_data (Json.Parser parser) {
         Recipe[] recipes = new Recipe[0];
 

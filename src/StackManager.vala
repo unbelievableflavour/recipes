@@ -17,7 +17,7 @@ public class StackManager : Object {
     StackManager() {
         stack = new Gtk.Stack ();
         stack.margin_bottom = 4;
-        stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
+        stack.transition_type = Gtk.StackTransitionType.CROSSFADE;
     }
  
     public static StackManager get_instance() {

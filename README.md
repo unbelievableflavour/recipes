@@ -29,10 +29,11 @@ These dependencies must be present before building
  - `libwebkit2gtk-4.0-dev`
  - `libmarkdown2-dev`
  - `json-glib-1.0`
+ - `libsoup2.4-dev`
 
  You can install these on a Ubuntu-based system by executing this command:
  
- `sudo apt install valac libgtk-3-dev libgranite-dev libwebkit2gtk-4.0-dev libmarkdown2-dev json-glib-1.0`
+ `sudo apt install valac libgtk-3-dev libgranite-dev libwebkit2gtk-4.0-dev libmarkdown2-dev json-glib-1.0 libsoup2.4-dev`
 
 ### Building
 ```

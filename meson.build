@@ -69,6 +69,7 @@ executable(
         dependency('granite'),
         dependency('webkit2gtk-4.0'),
         dependency('json-glib-1.0'),
+        dependency('libsoup-2.4'),
         libmarkdown,
     ],
     vala_args: [

@@ -92,9 +92,13 @@ public class HeaderBar : Gtk.HeaderBar {
     private void on_view_mode_changed () {
         if (view_mode.selected == 0){
             stackManager.getStack().visible_child_name = "welcome-view";
-        }else{
-            stackManager.getStack().visible_child_name = "list-view";
-            listBox.getInstalledPackages();
+        }
+        if (view_mode.selected == 1){
+            if(stackManager.getStack().get_visible_child_name() == "list-view"){
+                return;
+            }
+            stackManager.getStack().visible_child_name = "progress-view";
+            fileManager.getRecipesFromJSON();
         }
     }
 

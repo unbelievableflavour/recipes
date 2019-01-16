@@ -27,11 +27,9 @@ public class ListBox : Gtk.ListBox{
         }); 
     }
 
-    public void getInstalledPackages(){
+    public void getInstalledPackages(Recipe[] recipes){
 
         stackManager.getStack().visible_child_name = "list-view";
-
-        var recipes = fileManager.getRecipesFromJSON();
 
         emptyList();
         foreach (Recipe recipe in recipes) {
@@ -40,6 +38,7 @@ public class ListBox : Gtk.ListBox{
 
         show_all();
     }
+
 
     private void on_row_activated (Gtk.ListBoxRow row) {
         stackManager.getStack().visible_child_name = "progress-view";
