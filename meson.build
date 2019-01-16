@@ -57,7 +57,6 @@ executable(
     'src/WebView.vala',
     'src/Dialogs/Alert.vala',
     'src/Views/ListView.vala',
-    'src/Views/WelcomeView.vala',
     'src/Views/ProgressView.vala',
     'src/Components/HeaderBar.vala',
     'src/Components/HeaderLabel.vala',

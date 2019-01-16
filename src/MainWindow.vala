@@ -24,7 +24,8 @@ public class MainWindow : Gtk.Window{
 
         stackManager.loadViews(this);
 
-        stackManager.getStack().visible_child_name = "welcome-view";
+        stackManager.getStack().visible_child_name = "progress-view";
+        fileManager.getRecipesFromJSON();
 
         addShortcuts();
     }
@@ -36,11 +37,6 @@ public class MainWindow : Gtk.Window{
                   if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
                     stackManager.getStack().visible_child_name = "progress-view";
                     fileManager.getRecipesFromJSON();
-                  }
-                  break;
-                case Gdk.Key.h:
-                  if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
-                    stackManager.getStack().visible_child_name = "welcome-view";
                   }
                   break;
                 case Gdk.Key.q:

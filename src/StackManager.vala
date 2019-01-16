@@ -37,34 +37,24 @@ public class StackManager : Object {
         mainWindow = window;
 
         stack.add_named (new ListView(), LIST_VIEW_ID);
-        stack.add_named (new WelcomeView(), WELCOME_VIEW_ID);
         stack.add_named (new ProgressView(), PROGRESS_VIEW_ID);
         stack.add_named (preview_view, DETAIL_VIEW_ID);
 
         stack.notify["visible-child"].connect (() => {
             var headerBar = HeaderBar.get_instance();
 
-            if(stack.get_visible_child_name() == WELCOME_VIEW_ID){
-                headerBar.showViewMode(true);
-                headerBar.showLanguageMode(false);
-                headerBar.setSelectedViewMode(0);
-                headerBar.showReturnButton(false);
-            }
-
             if(stack.get_visible_child_name() == DETAIL_VIEW_ID){
-                headerBar.showViewMode(false);
                 headerBar.showLanguageMode(true);
                 headerBar.showReturnButton(true);
             }
 
             if(stack.get_visible_child_name() == PROGRESS_VIEW_ID){
-                headerBar.showViewMode(false);
+                headerBar.showLanguageMode(false);
                 headerBar.showReturnButton(false);
             }
 
             if(stack.get_visible_child_name() == LIST_VIEW_ID){
-                headerBar.showViewMode(true);
-                headerBar.setSelectedViewMode(1);
+                headerBar.showLanguageMode(false);
                 headerBar.showReturnButton(false);
             }
         });
