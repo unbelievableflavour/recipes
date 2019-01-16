@@ -12,7 +12,7 @@ A cookbook for Elementary OS
     src="https://raw.githubusercontent.com/bartzaalberg/recipes/master/screenshot.png" />
 </p>
 
-Do some cooking with some easy recipes!
+Do some cooking with some easy recipes. All the recipes are written in simple markdown. Don't see what you like? Add your own!
 
 ## Installation
 
