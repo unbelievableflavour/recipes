@@ -19,5 +19,12 @@
         "thumbnail": "https://wearychef.com/wp-content/uploads/2017/02/Ravioli-Lasagna-square-zoom.jpg",
         "author": "Bart Zaalberg",
         "languages": ["en", "nl"]
+    },
+    {
+        "id": "your_own_recipe",
+        "title": "Your own recipe",
+        "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
+        "author": "Bart Zaalberg",
+        "languages": ["en"]
     }
 ]
