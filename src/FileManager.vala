@@ -56,7 +56,7 @@ public class FileManager : Object {
         foreach (unowned Json.Node item in array.get_elements ()) {
             var object = item.get_object();
 
-            var file = getRecipeFile(object.get_string_member ("id"));
+            var file = getRecipeFile(object.get_string_member ("id"), "en");
             var markdownFile = fileToString(file);
 
             var recipe = new Recipe();
@@ -64,6 +64,7 @@ public class FileManager : Object {
             recipe.setName(object.get_string_member ("title"));
             recipe.setThumbnail(object.get_string_member ("thumbnail"));
             recipe.setAuthor(object.get_string_member ("author"));
+            recipe.setLanguages(object.get_array_member ("languages"));
             recipe.setMarkdownFile(markdownFile);
 
             recipes += recipe;
@@ -71,9 +72,9 @@ public class FileManager : Object {
         return recipes;
     }
 
-    private File getRecipeFile(string fileName){
+    private File getRecipeFile(string fileName, string lang){
         try {
-            return File.new_for_uri ("https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/" + fileName + "/recipe.md");
+            return File.new_for_uri ("https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/" + fileName + "/recipe_" + lang + ".md");
         } catch (Error e) {
             error ("%s", e.message);
         }

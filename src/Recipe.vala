@@ -5,6 +5,7 @@ public class Recipe : Object {
     private string author = "";
     private string thumbnail = "";
     private string markDownFile = "";
+	Json.Array languages;
 
     public string getId(){
         return this.id;
@@ -44,6 +45,14 @@ public class Recipe : Object {
 
     public void setMarkdownFile(string markDownFile){
         this.markDownFile = markDownFile;    
+    }
+
+    public Json.Array getLanguages(){
+        return this.languages;
+    }
+
+    public void setLanguages(Json.Array languages){
+        this.languages = languages;
     }
 }
 }
