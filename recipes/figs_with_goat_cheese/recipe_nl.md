@@ -1,10 +1,10 @@
 ![Vijgen met geitenkaas](https://static.ah.nl/static/recepten/img_011299_890x594_JPG.jpg)
 
-#Description:
+#Omschrijving:
 
 Een heel simpel gerecht. Verse vijgen met daarin wat geitenkaas en honing.
 
-#Ingredienten:
+#Ingrediënten:
 
 * Vijgen
 * Geitenkaas

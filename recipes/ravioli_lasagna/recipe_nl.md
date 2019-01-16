@@ -2,9 +2,11 @@
 
 #Omschrijving:
 
-#Ingredienten:
+Een eenvoudige maar toch heerlijke lasagne.
 
-* 250 gr ravioli )bv met paddestoelen of kaas vulling)
+#Ingrediënten:
+
+* 250 gr ravioli (Bijvoorbeeld: met paddestoelen of kaas vulling)
 * 300 gr Gehakt
 * 390 ml tomatensaus
 * Geraspte mozzarella

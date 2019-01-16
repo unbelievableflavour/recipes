@@ -1,8 +1,10 @@
 ![Bruschetta met tomaten](https://www.francescakookt.nl/wp-content/uploads/2017/08/Bruschetta-met-passata-basilicum-en-verse-tomaat_uitgelicht_1.jpg)
 
-#Description:
+#Omschrijving:
 
-#Ingredients:
+Bruschetta is een Italiaans aperitiefhapje dat bestaat uit gegrild brood, met knoflook en olijfolie.
+
+#Ingrediënten:
 
 * 5 tomaten
 * 1 ciabatta brood ( of stokbrood)
@@ -11,7 +13,7 @@
 * Scheutje olijfolie
 * Snufje zwarte peper
 
-#Steps:
+#Stappen:
 
 1. Vul een kom met kokend heet water. Snijd met een mes een kruis aan de onderkant van de tomaten.
 2. Leg de tomaten een minuutje in het water en spoel ze af moet koud water.

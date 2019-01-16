@@ -4,14 +4,14 @@
 
 Here's a super-simple appetizer. Fresh figs are stuffed with goat cheese some honey.
 
-#Ingredienten:
+#Ingredients:
 
 * Figs
 * Goat cheese
 * Rosemary
 * Honey
 
-#Stappen:
+#Steps:
 
 1. Make crosses in the figs with a knife and put them in a oven dish.
 2. Take small pieces of goat cheese and them in the figs.
