@@ -4,24 +4,24 @@
 
 #Ingredients:
 
-* 5 tomaten
-* 1 ciabatta brood ( of stokbrood)
-* Handje verse basilicum
-* 2 teentjes knoflook
-* Scheutje olijfolie
-* Snufje zwarte peper
+* 5 tomatoes
+* 1 ciabatta bread ( or just a baguette)
+* Basil
+* 2 cloves of garlic
+* Some olive oil
+* Black pepper
 
 #Steps:
 
-1. Vul een kom met kokend heet water. Snijd met een mes een kruis aan de onderkant van de tomaten.
-2. Leg de tomaten een minuutje in het water en spoel ze af moet koud water.
-3. De vel van de tomaat moet nu makkelijk te verwijderen zijn. Verwijder deze.
+1. Fill a bowl with hot water. Snijd met een mes een kruis aan de onderkant van de tomaten.
+2. Put the tomatoes in the water for around 1 minute and rinse them with cold water.
+3. It should now be easy to peel of the skin of the tomato. Remove it.
 4. Snijd ook het gedeelte met de zaadjes er uit en snijd het vruchtvlees in kleine blokjes.
-5. Doe de stukjes tomaat in een kom en voeg een klein beetje olijfolie toe.
-6. Hak de basilicum fijn, kneus de teentjes knoflook en schep beide door de tomaten. 
-7. Voeg een beetje peper toe aan het tomaten mengsel.
-8. Dek de kom goed af en laat minimaal 2 uur in de koelkast marineren (hele nacht kan ook).
-9. Snijd het brood in plakken en bestrijk aan beide kanten met een beetje olijfolie.
-10. Grill het brood aan beide kanten in een pan (of oven) knapperig.
-11. Verwijder de knoflook uit het bakje tomaten en verdeel over het brood. 
-12. Houd je van een extra sterke knoflook smaak, dan kun je het brood na het roosteren nog inwrijven met een teentje knoflook.
+5. Put the pieces of tomato in a bowl and add a bit of olive oil.
+6. Chop the basil and garlic into small pieces and add them to the tomato bowl.
+7. Add a bit of pepper to the bowl.
+8. Cover the bowl and let it marinate for at least 2 hours in the fridge (All night is fine too).
+9. Cut the bread in slices and add a bit of olive oil to both sides of the bread.
+10. Grill the bread in a pan or the oven until it is crunchy.
+11. Remove the garlic from the bowl and divide the bowl over the slices of bread. 
+12. Do you like a strong garlic flavour? Just keep the garlic in the bowl.
