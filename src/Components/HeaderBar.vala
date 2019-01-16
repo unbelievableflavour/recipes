@@ -6,14 +6,17 @@ public class HeaderBar : Gtk.HeaderBar {
     static HeaderBar? instance;
 
     private StackManager stackManager = StackManager.get_instance();
+    private FileManager fileManager = FileManager.get_instance();
     ListBox listBox = ListBox.get_instance();    
     public Gtk.Button return_button = new Gtk.Button ();
     private Granite.Widgets.ModeButton view_mode = new Granite.Widgets.ModeButton();
+    private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton();
 
     HeaderBar() {
         Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
         
         generateViewMode();
+        generateLanguageButton();
         generateReturnButton();
 
         this.pack_start (return_button);
@@ -47,6 +50,13 @@ public class HeaderBar : Gtk.HeaderBar {
         view_mode.notify["selected"].connect (on_view_mode_changed);
     }
 
+    private void generateLanguageButton(){
+        language_button.no_show_all = true;
+        language_button.visible = false;
+        language_button.margin = 1;
+        language_button.notify["selected"].connect (on_language_button_changed);
+    }
+
     private void generateReturnButton(){
         return_button.label = _("Back");
         return_button.no_show_all = true;
@@ -59,6 +69,16 @@ public class HeaderBar : Gtk.HeaderBar {
 
     public void showViewMode(bool answer){
         view_mode.visible = answer;
+        if(answer == true) {
+            this.set_custom_title(view_mode);
+        }
+    }
+
+    public void showLanguageMode(bool answer){        
+        language_button.visible = answer;
+        if(answer == true) {
+            this.set_custom_title(language_button);
+        }
     }
 
     public void showReturnButton(bool answer){
@@ -69,13 +89,37 @@ public class HeaderBar : Gtk.HeaderBar {
         view_mode.selected = answer;
     }
 
-     private void on_view_mode_changed () {
+    private void on_view_mode_changed () {
         if (view_mode.selected == 0){
             stackManager.getStack().visible_child_name = "welcome-view";
         }else{
             stackManager.getStack().visible_child_name = "list-view";
             listBox.getInstalledPackages();
         }
+    }
+
+    public void updateLanguagesButton(Array<string> languages) {
+        language_button.clear_children();
+
+        for (int i = 0; i < languages.length ; i++) {
+            var lang = languages.index (i);
+	        var label = new Gtk.Label(lang);
+            label.get_style_context().add_class("view-mode-button");
+	        label.name = lang;
+
+	        language_button.append(label);
+	    }
+    }
+
+    private void on_language_button_changed () {
+        var recipe = stackManager.getDetailRecipe();
+        var lang = recipe.getLanguages().index(language_button.selected);
+
+        var file = fileManager.getRecipeFile(recipe.getId(), lang);
+        var markdownFile = fileManager.fileToString(file);
+
+        recipe.setMarkdownFile(markdownFile);
+        stackManager.setDetailRecipe(recipe);
     }
 }
 }

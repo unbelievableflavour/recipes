@@ -48,12 +48,14 @@ public class StackManager : Object {
 
             if(stack.get_visible_child_name() == WELCOME_VIEW_ID){
                 headerBar.showViewMode(true);
+                headerBar.showLanguageMode(false);
                 headerBar.setSelectedViewMode(0);
                 headerBar.showReturnButton(false);
             }
 
             if(stack.get_visible_child_name() == DETAIL_VIEW_ID){
                 headerBar.showViewMode(false);
+                headerBar.showLanguageMode(true);
                 headerBar.showReturnButton(true);
             }
 
@@ -74,7 +76,14 @@ public class StackManager : Object {
    }
 
    public void setDetailRecipe(Recipe recipe) {
+
+        var headerBar = HeaderBar.get_instance();
+        headerBar.updateLanguagesButton(recipe.getLanguages());
         preview_view_content.loadRecipe(recipe);
+   }
+
+   public Recipe getDetailRecipe() {
+        return preview_view_content.getRecipe();
    }
 }
 }

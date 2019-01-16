@@ -5,7 +5,7 @@ public class Recipe : Object {
     private string author = "";
     private string thumbnail = "";
     private string markDownFile = "";
-	Json.Array languages;
+	Array<string> languages;
 
     public string getId(){
         return this.id;
@@ -47,12 +47,17 @@ public class Recipe : Object {
         this.markDownFile = markDownFile;    
     }
 
-    public Json.Array getLanguages(){
+    public Array<string> getLanguages(){
         return this.languages;
     }
 
     public void setLanguages(Json.Array languages){
-        this.languages = languages;
+        Array<string> languagesArray = new Array<string> ();
+        foreach (unowned Json.Node item in languages.get_elements()) {
+        	languagesArray.append_val (item.get_string());
+        }
+
+        this.languages = languagesArray;
     }
 }
 }

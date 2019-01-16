@@ -72,7 +72,7 @@ public class FileManager : Object {
         return recipes;
     }
 
-    private File getRecipeFile(string fileName, string lang){
+    public File getRecipeFile(string fileName, string lang){
         try {
             return File.new_for_uri ("https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/" + fileName + "/recipe_" + lang + ".md");
         } catch (Error e) {

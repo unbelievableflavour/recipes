@@ -22,7 +22,7 @@ using WebKit;
 namespace Application {
     public class Widgets.WebView : WebKit.WebView {
         public MainWindow parent_window;
-        string markdownString = "";
+        private Recipe recipe = new Recipe();
         public WebView (MainWindow window) {
             Object(user_content_manager: new UserContentManager());
             parent_window = window;
@@ -180,10 +180,15 @@ namespace Application {
        }
 
         public void loadRecipe(Recipe recipe){
+
             if(recipe.getName() != null){
-                markdownString = (recipe.getMarkdownFile());
+                this.recipe = recipe;
             }
             update_html_view();
+        }
+
+        public Recipe getRecipe(){
+            return this.recipe;
         }
 
         private string set_highlight_stylesheet () {
@@ -291,7 +296,7 @@ namespace Application {
 
         private string process () {
             string processed_mk;
-            process_frontmatter (markdownString, out processed_mk);
+            process_frontmatter (this.recipe.getMarkdownFile(), out processed_mk);
             var mkd = new Markdown.Document (processed_mk.data, 0x00200000 + 0x00004000 + 0x02000000 + 0x01000000 + 0x00400000 + 0x40000000);
         mkd.compile (0x00200000 + 0x00004000 + 0x02000000 + 0x01000000 + 0x00400000 + 0x40000000);
 

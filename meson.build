@@ -62,7 +62,6 @@ executable(
     'src/Views/ProgressView.vala',
     'src/Components/HeaderBar.vala',
     'src/Components/HeaderLabel.vala',
-    'src/Components/DetailViewBanner.vala',
     asresources,
     c_args: c_args,
     dependencies: [
