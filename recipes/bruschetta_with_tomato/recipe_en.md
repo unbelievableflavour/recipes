@@ -1,8 +1,8 @@
-![Bruschetta with tomatoes](https://raw.githubusercontent.com/bartzaalberg/snaptastic/master/screenshot.png)
+![Bruschetta with tomatoes](https://www.francescakookt.nl/wp-content/uploads/2017/08/Bruschetta-met-passata-basilicum-en-verse-tomaat_uitgelicht_1.jpg)
 
-#Omschrijving:
+#Description:
 
-#Ingredienten:
+#Ingredients:
 
 * 5 tomaten
 * 1 ciabatta brood ( of stokbrood)
@@ -11,7 +11,7 @@
 * Scheutje olijfolie
 * Snufje zwarte peper
 
-#Stappen:
+#Steps:
 
 1. Vul een kom met kokend heet water. Snijd met een mes een kruis aan de onderkant van de tomaten.
 2. Leg de tomaten een minuutje in het water en spoel ze af moet koud water.

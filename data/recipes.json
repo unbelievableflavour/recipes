@@ -2,21 +2,21 @@
     {
         "id": "bruschetta_with_tomato",
         "title": "Bruschetta with Tomatoes",
-        "thumbnail": "http://lorempixel.com/output/nature-q-c-480-480-2.jpg",
+        "thumbnail": "https://www.francescakookt.nl/wp-content/uploads/2017/08/Bruschetta-met-passata-basilicum-en-verse-tomaat_uitgelicht_1.jpg",
         "author": "Bart Zaalberg",
         "languages": ["en"]
     },
     {
-        "id": "another_recipe",
-        "title": "Another recipe",
-        "thumbnail": "http://lorempixel.com/output/food-q-c-480-480-8.jpg",
-        "author": "Bart Zaalberg",
+        "id": "sushi",
+        "title": "Sushi",
+        "thumbnail": "https://images.smulweb.nl/recepten/199911/168121/high_res/sushii.jpg",
+        "author": "Some Guy",
         "languages": ["en"]
     },
     {
         "id": "ravioli_lasagne",
         "title": "Ravioli Lasagne",
-        "thumbnail": "http://lorempixel.com/output/technics-q-c-480-480-6.jpg",
+        "thumbnail": "https://wearychef.com/wp-content/uploads/2017/02/Ravioli-Lasagna-square-zoom.jpg",
         "author": "Bart Zaalberg",
         "languages": ["en", "nl"]
     }
