@@ -22,7 +22,6 @@ Een eenvoudige maar toch heerlijke lasagne.
 5. Kook ondertussen de ravioli gaar. 
 6. Verdeel 1/3e van het gehaktmengsel over de bodem van een ovenschaal.
 7. Verdeel hier overheen wat ricotta dotjes
-8. Voeg de helft van de ricotta toe.
-9. Herhaal stappen 6,7, en 8 en eindig met een laag gehakt en nog wat ricotta.
-10. Bestrooi de schotel met wat geraspte mozerrella.
-11. Zeg de schotel ca 15 minuten in de oven.
+8. Herhaal stappen 6 en 7 en eindig met een laag gehakt en nog wat ricotta.
+9. Bestrooi de schotel met wat geraspte mozerrella.
+10. Zeg de schotel ca 15 minuten in de oven.
