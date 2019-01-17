@@ -1,10 +1,10 @@
 ![Ravioli lasagna](https://wearychef.com/wp-content/uploads/2017/02/Ravioli-Lasagna-square-zoom.jpg)
 
-#Description:
+# Description:
 
 A simple yet delicous lasagna.
 
-#Ingredients:
+# Ingredients:
 
 * 250 gr ravioli(example: with mushrooms or cheese)
 * 300 gr Minced meat
@@ -13,7 +13,7 @@ A simple yet delicous lasagna.
 * 1 Zucchini
 * 250 gr ricotta
 
-#Steps:
+# Steps:
 
 1. Heat the oven at 200 degrees.
 2. Bake the minced meat.

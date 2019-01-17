@@ -14,7 +14,7 @@ A cookbook for Elementary OS
 
 Do some cooking with some easy recipes. All the recipes are written in simple markdown. Don't see what you like? Add your own!
 
-##Add your own recipe
+## Add your own recipe
 
 Do you have an awesome recipe you want to share? Please dont hesitate to add it to the repository!
 

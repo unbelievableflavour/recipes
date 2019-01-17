@@ -1,17 +1,17 @@
 ![Vijgen met geitenkaas](https://static.ah.nl/static/recepten/img_011299_890x594_JPG.jpg)
 
-#Omschrijving:
+# Omschrijving:
 
 Een heel simpel gerecht. Verse vijgen met daarin wat geitenkaas en honing.
 
-#Ingrediënten:
+# Ingrediënten:
 
 * Vijgen
 * Geitenkaas
 * Rozenmarijn
 * Honing
 
-#Stappen:
+# Stappen:
 
 1. Maak kruisjes in de vijgen met een mes en stop ze in een ovenschaal.
 2. Stop in the kruisjes kleine stukjes geitenkaas. 

@@ -1,10 +1,10 @@
 ![Ravioli lasagne](https://wearychef.com/wp-content/uploads/2017/02/Ravioli-Lasagna-square-zoom.jpg)
 
-#Omschrijving:
+# Omschrijving:
 
 Een eenvoudige maar toch heerlijke lasagne.
 
-#Ingrediënten:
+# Ingrediënten:
 
 * 250 gr ravioli (Bijvoorbeeld: met paddestoelen of kaas vulling)
 * 300 gr Gehakt
@@ -13,7 +13,7 @@ Een eenvoudige maar toch heerlijke lasagne.
 * 1 courgette
 * 250 gr ricotta
 
-#Stappen:
+# Stappen:
 
 1. Verwarm over voor op 200 graden.
 2. Bak het gehakt bruin in een pan.
