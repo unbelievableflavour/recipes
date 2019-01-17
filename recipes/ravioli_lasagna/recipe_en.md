@@ -22,6 +22,6 @@ A simple yet delicous lasagna.
 5. Meanwhile, cook the ravioli until done.
 6. Divide 1/3rd of the minced meat mixture over the bottom of an oven dish.
 7. Add 1/3 of the ricotta.
-8. Repeat steps 6,7, and 8 and finish with a layer of minced beef and some ricotta.
+8. Repeat steps 6 and 7 and finish with a layer of minced beef and some ricotta.
 9. Sprinkle grated mozerrella on the dish.
 10. Put the dish in the oven for about 15 minutes.
