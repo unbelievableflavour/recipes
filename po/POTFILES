@@ -8,7 +8,6 @@ src/ListBox.vala
 src/FileManager.vala
 src/Constants.vala
 src/StackManager.vala
-src/WebView.vala
 src/Dialogs/Alert.vala
 src/Views/ListView.vala
 src/Views/ProgressView.vala
