@@ -1,6 +1,8 @@
 com.github.bartzaalberg.recipes (0.0.1) UNSTABLE; urgency=low
 
   * First release
+  * View recipes
+  * Change languages
+  * Add your own recipe by PR
 
- -- Bart Zaalberg <bartzaalberg@gmail.com>  Sun, 13 Jan 2019 16:21:00 +0200
-
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Sun, 17 Jan 2019 16:03:00 +0200
