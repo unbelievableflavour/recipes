@@ -1,13 +1,13 @@
-#Add own recipe
+# Add own recipe
 
 Do you want your own recipe to show up in the app?
 
-###You can do one of the following things:
+### You can do one of the following things:
 
 * Just create a PR [here](https://github.com/bartzaalberg/recipes)
 * Or send me an email at bartzaalberg@gmail.com
 
-###Steps for PR:
+### Steps for PR:
 
 1. Fork the repository.
 2. Create a folder with the name of your recipe under `/recipes` in the repository. (example `/recipes/very_nice_meat_recipe`)
