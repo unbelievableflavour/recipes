@@ -6,7 +6,7 @@ public class HeaderBar : Gtk.HeaderBar {
     static HeaderBar? instance;
 
     private StackManager stack_manager = StackManager.get_instance ();
-    private FileManager file_manager = FileManager.get_instance ();
+    private RecipeFileManager recipe_file_manager = RecipeFileManager.get_instance ();
     public Gtk.Button return_button = new Gtk.Button ();
     private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton ();
 
@@ -74,8 +74,8 @@ public class HeaderBar : Gtk.HeaderBar {
         var recipe = stack_manager.get_detail_recipe ();
         var lang = recipe.get_languages ().index (language_button.selected);
 
-        var file = file_manager.get_recipe_file (recipe.get_id (), lang);
-        var markdown_file = file_manager.file_to_string (file);
+        var file = recipe_file_manager.get_recipe_file (recipe.get_id (), lang);
+        var markdown_file = recipe_file_manager.file_to_string (file);
 
         recipe.set_markdown_file (markdown_file);
         stack_manager.set_detail_recipe (recipe);

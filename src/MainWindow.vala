@@ -4,11 +4,12 @@ namespace Application {
 public class MainWindow : Gtk.Window {
 
     private StackManager stack_manager = StackManager.get_instance ();
-    private FileManager file_manager = FileManager.get_instance ();
+    private RecipeFileManager recipe_file_manager = RecipeFileManager.get_instance ();
     private HeaderBar header_bar = HeaderBar.get_instance ();
 
     public MainWindow (Gtk.Application application) {
         Object (application: application,
+                icon_name: Constants.APPLICATION_NAME,
                 resizable: true,
                 height_request: Constants.APPLICATION_HEIGHT,
                 width_request: Constants.APPLICATION_WIDTH);
@@ -25,7 +26,7 @@ public class MainWindow : Gtk.Window {
         stack_manager.load_views (this);
 
         stack_manager.get_stack ().visible_child_name = "progress-view";
-        file_manager.get_recipes_from_json ();
+        recipe_file_manager.get_recipes_from_json ();
 
         add_shortcuts ();
     }
@@ -36,7 +37,7 @@ public class MainWindow : Gtk.Window {
                 case Gdk.Key.r:
                   if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
                     stack_manager.get_stack ().visible_child_name = "progress-view";
-                    file_manager.get_recipes_from_json ();
+                    recipe_file_manager.get_recipes_from_json ();
                   }
                   break;
                 case Gdk.Key.q:
