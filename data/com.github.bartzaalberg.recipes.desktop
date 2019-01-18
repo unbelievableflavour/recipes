@@ -1,14 +1,14 @@
 [Desktop Entry]
 Name=Recipes
 GenericName=Recipes
-Comment=Application to manage snaps
+Comment=A markdown recipes application
 Categories=Education;
 Exec=com.github.bartzaalberg.recipes %U
 Icon=com.github.bartzaalberg.recipes
 Terminal=false
 Type=Application
 X-GNOME-Gettext-Domain=recipes
-Keywords=GUI;Snaps;
+Keywords=cooking;recipes;
 Actions=AboutDialog;
 
 [Desktop Action AboutDialog]
