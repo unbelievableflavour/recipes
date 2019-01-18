@@ -43,7 +43,7 @@ public class RecipeFileManager : Object {
         var session = new Soup.Session ();
         var message = new Soup.Message (
             "GET",
-            "https://raw.githubusercontent.com/bartzaalberg/recipes/master/data/recipes.json"
+            "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/recipes.json"
         );
 
         Recipe[] recipes = new Recipe[0];
