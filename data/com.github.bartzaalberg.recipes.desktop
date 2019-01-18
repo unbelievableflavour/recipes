@@ -2,7 +2,7 @@
 Name=Recipes
 GenericName=Recipes
 Comment=Application to manage snaps
-Categories=Utility;System;Network;Development;
+Categories=Education;
 Exec=com.github.bartzaalberg.recipes %U
 Icon=com.github.bartzaalberg.recipes
 Terminal=false
