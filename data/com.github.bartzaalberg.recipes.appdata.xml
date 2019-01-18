@@ -16,6 +16,15 @@
     </ul>
   </description>
   <releases>
+    <release version="0.1.0" date="2019-01-18">
+      <description>
+        <p>Updated detail page</p>
+        <ul>
+          <li>Author is now shown in header bar</li>
+          <li>Image is now bigger on detail page</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.0.1" date="2019-01-17">
       <description>
         <p>First release</p>

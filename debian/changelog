@@ -1,3 +1,13 @@
+com.github.bartzaalberg.recipes (0.1.0) UNSTABLE; urgency=high
+
+  * Moved recipes.json location
+  * Cleaned up code and adjusted code with vala linting
+  * Added author and recipe name to header bar
+  * Updated screenshots
+  * Corrected appcenter category
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Fri, 18 Jan 2019 16:49:00 +0200
+
 com.github.bartzaalberg.recipes (0.0.1) UNSTABLE; urgency=low
 
   * First release
@@ -5,4 +15,4 @@ com.github.bartzaalberg.recipes (0.0.1) UNSTABLE; urgency=low
   * Change languages
   * Add your own recipe by PR
 
- -- Bart Zaalberg <bartzaalberg@gmail.com>  Sun, 17 Jan 2019 16:03:00 +0200
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Thu, 17 Jan 2019 16:03:00 +0200
