@@ -2,84 +2,83 @@ using Granite.Widgets;
 
 namespace Application {
 public class HeaderBar : Gtk.HeaderBar {
-    
+
     static HeaderBar? instance;
 
-    private StackManager stackManager = StackManager.get_instance();
-    private FileManager fileManager = FileManager.get_instance();
-    ListBox listBox = ListBox.get_instance();    
+    private StackManager stack_manager = StackManager.get_instance ();
+    private FileManager file_manager = FileManager.get_instance ();
     public Gtk.Button return_button = new Gtk.Button ();
-    private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton();
+    private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton ();
 
-    HeaderBar() {
+    HeaderBar () {
         Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
-        
-        generateLanguageButton();
-        generateReturnButton();
+
+        generate_language_button ();
+        generate_return_button ();
 
         this.pack_start (return_button);
         this.show_close_button = true;
     }
- 
-    public static HeaderBar get_instance() {
+
+    public static HeaderBar get_instance () {
         if (instance == null) {
-            instance = new HeaderBar();
+            instance = new HeaderBar ();
         }
         return instance;
     }
 
 
-    private void generateLanguageButton(){
+    private void generate_language_button () {
         language_button.no_show_all = true;
         language_button.visible = false;
         language_button.margin = 1;
         language_button.notify["selected"].connect (on_language_button_changed);
     }
 
-    private void generateReturnButton(){
+    private void generate_return_button () {
         return_button.label = _("Back");
         return_button.no_show_all = true;
         return_button.visible = false;
         return_button.get_style_context ().add_class ("back-button");
         return_button.clicked.connect (() => {
-            stackManager.getStack().visible_child_name = "list-view";
+            stack_manager.get_stack ().visible_child_name = "list-view";
         });
     }
 
 
-    public void showLanguageMode(bool answer){        
+    public void show_language_mode (bool answer) {
         language_button.visible = answer;
-        if(answer == true) {
-            this.set_custom_title(language_button);
+        if (answer == true) {
+            this.set_custom_title (language_button);
         }
     }
 
-    public void showReturnButton(bool answer){
+    public void show_return_button (bool answer) {
         return_button.visible = answer;
     }
 
-    public void updateLanguagesButton(Array<string> languages) {
-        language_button.clear_children();
+    public void update_languages_button (Array<string> languages) {
+        language_button.clear_children ();
 
         for (int i = 0; i < languages.length ; i++) {
             var lang = languages.index (i);
-	        var label = new Gtk.Label(lang);
-            label.get_style_context().add_class("view-mode-button");
-	        label.name = lang;
+            var label = new Gtk.Label (lang);
+            label.get_style_context ().add_class ("view-mode-button");
+            label.name = lang;
 
-	        language_button.append(label);
-	    }
+            language_button.append (label);
+        }
     }
 
     private void on_language_button_changed () {
-        var recipe = stackManager.getDetailRecipe();
-        var lang = recipe.getLanguages().index(language_button.selected);
+        var recipe = stack_manager.get_detail_recipe ();
+        var lang = recipe.get_languages ().index (language_button.selected);
 
-        var file = fileManager.getRecipeFile(recipe.getId(), lang);
-        var markdownFile = fileManager.fileToString(file);
+        var file = file_manager.get_recipe_file (recipe.get_id (), lang);
+        var markdown_file = file_manager.file_to_string (file);
 
-        recipe.setMarkdownFile(markdownFile);
-        stackManager.setDetailRecipe(recipe);
+        recipe.set_markdown_file (markdown_file);
+        stack_manager.set_detail_recipe (recipe);
     }
 }
 }

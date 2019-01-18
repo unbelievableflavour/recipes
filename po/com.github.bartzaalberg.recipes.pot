@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/Views/ProgressView.vala:7
-msgid "Please Wait..."
+msgid "Please Wait"
 msgstr ""
 
 #: src/Views/ProgressView.vala:7
-msgid "Operation is in progress..."
+msgid "Operation is in progress"
 msgstr ""
 
 #: src/Components/HeaderBar.vala:40

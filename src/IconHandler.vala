@@ -7,19 +7,19 @@ public class IconHandler {
 
     private Gtk.Image backup_icon = new Gtk.Image.from_icon_name ("package", Gtk.IconSize.DND);
 
-    private File                    file_photo;
-    private Granite.AsyncImage      image;
+    private File file_photo;
+    private Granite.AsyncImage image;
 
-    public Gtk.Image get_icon_from_string(string recipe) {
-        if( recipe == "" || recipe == null) {
+    public Gtk.Image get_icon_from_string (string recipe) {
+        if ( recipe == "" || recipe == null) {
             return backup_icon;
         }
         try {
-            if( recipe.substring(0,4) == "http") {
+            if ( recipe.substring (0,4) == "http") {
                 file_photo = File.new_for_uri (recipe);
-                image = new Granite.AsyncImage(true, true);
+                image = new Granite.AsyncImage (true, true);
                 image.get_style_context ().add_class ("backimg");
-                image.set_from_file_async.begin(file_photo, icon_size, icon_size, false);
+                image.set_from_file_async.begin (file_photo, icon_size, icon_size, false);
                 return image;
             }
 
@@ -29,7 +29,7 @@ public class IconHandler {
         }
     }
 
-    public void set_icon_size(int icon_size){
+    public void set_icon_size (int icon_size) {
         this.icon_size = icon_size;
     }
 }

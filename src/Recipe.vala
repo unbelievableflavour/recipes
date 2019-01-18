@@ -4,60 +4,60 @@ public class Recipe : Object {
     private string name = "";
     private string author = "";
     private string thumbnail = "";
-    private string markDownFile = "";
-	Array<string> languages;
+    private string markdown_file = "";
+    Array<string> languages;
 
-    public string getId(){
+    public string get_id () {
         return this.id;
     }
 
-    public void setId(string id){
+    public void set_id (string id) {
         this.id = id;
     }
 
-    public string getName(){
+    public string get_name () {
         return this.name;
     }
 
-    public void setName(string name){
+    public void set_name (string name) {
         this.name = name;
     }
 
-    public string getAuthor(){
+    public string get_author () {
         return this.author;
     }
 
-    public void setAuthor(string author){
+    public void set_author (string author) {
         this.author = author;
     }
 
-    public string getThumbnail(){
+    public string get_thumbnail () {
         return this.thumbnail;
     }
 
-    public void setThumbnail(string thumbnail){
+    public void set_thumbnail (string thumbnail) {
         this.thumbnail = thumbnail;
     }
 
-    public string getMarkdownFile(){
-        return this.markDownFile;
+    public string get_markdown_file () {
+        return this.markdown_file;
     }
 
-    public void setMarkdownFile(string markDownFile){
-        this.markDownFile = markDownFile;    
+    public void set_markdown_file (string markdown_file) {
+        this.markdown_file = markdown_file;
     }
 
-    public Array<string> getLanguages(){
+    public Array<string> get_languages () {
         return this.languages;
     }
 
-    public void setLanguages(Json.Array languages){
-        Array<string> languagesArray = new Array<string> ();
-        foreach (unowned Json.Node item in languages.get_elements()) {
-        	languagesArray.append_val (item.get_string());
+    public void set_languages (Json.Array languages) {
+        Array<string> languages_array = new Array<string> ();
+        foreach (unowned Json.Node item in languages.get_elements ()) {
+            languages_array.append_val (item.get_string ());
         }
 
-        this.languages = languagesArray;
+        this.languages = languages_array;
     }
 }
 }

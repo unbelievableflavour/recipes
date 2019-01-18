@@ -22,18 +22,18 @@ using WebKit;
 namespace Application {
     public class Widgets.WebView : WebKit.WebView {
         public MainWindow parent_window;
-        private Recipe recipe = new Recipe();
+        private Recipe recipe = new Recipe ();
         public WebView (MainWindow window) {
-            Object(user_content_manager: new UserContentManager());
+            Object (user_content_manager: new UserContentManager ());
             parent_window = window;
             visible = true;
             vexpand = true;
             hexpand = true;
-            var settingsweb = get_settings();
-            settingsweb.enable_plugins = false;
-            settingsweb.enable_page_cache = true;
-            settingsweb.enable_developer_extras = false;
-            web_context.set_cache_model(WebKit.CacheModel.DOCUMENT_VIEWER);
+            var settings_web = get_settings ();
+            settings_web.enable_plugins = false;
+            settings_web.enable_page_cache = true;
+            settings_web.enable_developer_extras = false;
+            web_context.set_cache_model (WebKit.CacheModel.DOCUMENT_VIEWER);
 
             update_html_view ();
             connect_signals ();
@@ -51,15 +51,15 @@ namespace Application {
             return Constants.WEBVIEW_STYLESHEET;
        }
 
-        public void loadRecipe(Recipe recipe){
+        public void load_recipe (Recipe recipe) {
 
-            if(recipe.getName() != null){
+            if (recipe.get_name () != null) {
                 this.recipe = recipe;
             }
-            update_html_view();
+            update_html_view ();
         }
 
-        public Recipe getRecipe(){
+        public Recipe get_recipe () {
             return this.recipe;
         }
 
@@ -69,7 +69,7 @@ namespace Application {
 
         private void connect_signals () {
             create.connect ((navigation_action) => {
-                launch_browser (navigation_action.get_request().get_uri ());
+                launch_browser (navigation_action.get_request ().get_uri ());
                 return (Gtk.Widget) null;
             });
 
@@ -130,7 +130,7 @@ namespace Application {
                 int next_newline;
                 string line = "";
                 while (true) {
-                    next_newline = raw_mk.index_of_char('\n', last_newline + 1);
+                    next_newline = raw_mk.index_of_char ('\n', last_newline + 1);
                     if (next_newline == -1) { // End of file
                         valid_frontmatter = false;
                         break;
@@ -142,7 +142,7 @@ namespace Application {
                         break;
                     }
 
-                    var sep_index = line.index_of_char(':');
+                    var sep_index = line.index_of_char (':');
                     if (sep_index != -1) {
                         map += line[0:sep_index-1];
                         map += line[sep_index+1:line.length];
@@ -168,9 +168,12 @@ namespace Application {
 
         private string process () {
             string processed_mk;
-            process_frontmatter (this.recipe.getMarkdownFile(), out processed_mk);
-            var mkd = new Markdown.Document (processed_mk.data, 0x00200000 + 0x00004000 + 0x02000000 + 0x01000000 + 0x00400000 + 0x40000000);
-        mkd.compile (0x00200000 + 0x00004000 + 0x02000000 + 0x01000000 + 0x00400000 + 0x40000000);
+            process_frontmatter (this.recipe.get_markdown_file (), out processed_mk);
+            var mkd = new Markdown.Document (
+                processed_mk.data, 0x00200000 + 0x00004000 + 0x02000000 + 0x01000000 + 0x00400000 + 0x40000000
+            );
+
+            mkd.compile (0x00200000 + 0x00004000 + 0x02000000 + 0x01000000 + 0x00400000 + 0x40000000);
 
             string result;
             mkd.get_document (out result);
@@ -180,7 +183,7 @@ namespace Application {
 
         public void update_html_view () {
             string html = "<!doctype html><meta charset=utf-8><head>";
-            html += "<link rel=\"stylesheet\" href=\"" + set_highlight_stylesheet() + "\"/>";
+            html += "<link rel=\"stylesheet\" href=\"" + set_highlight_stylesheet () + "\"/>";
             html += "<script src=\"" + Build.PKGDATADIR + "/highlight.js/lib/highlight.min.js\"></script>";
             html += "<script>hljs.initHighlightingOnLoad();</script>";
             html += "<style>" + set_stylesheet () + "</style>";

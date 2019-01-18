@@ -1,11 +1,11 @@
 using Granite.Widgets;
 
 namespace Application {
-public class MainWindow : Gtk.Window{
+public class MainWindow : Gtk.Window {
 
-    private StackManager stackManager = StackManager.get_instance();
-    private FileManager fileManager = FileManager.get_instance();
-    private HeaderBar headerBar = HeaderBar.get_instance();
+    private StackManager stack_manager = StackManager.get_instance ();
+    private FileManager file_manager = FileManager.get_instance ();
+    private HeaderBar header_bar = HeaderBar.get_instance ();
 
     public MainWindow (Gtk.Application application) {
         Object (application: application,
@@ -19,34 +19,34 @@ public class MainWindow : Gtk.Window{
         style_context.add_class (Gtk.STYLE_CLASS_VIEW);
         style_context.add_class ("rounded");
 
-        set_default_size(Constants.APPLICATION_WIDTH, Constants.APPLICATION_HEIGHT);
-        set_titlebar (headerBar);
+        set_default_size (Constants.APPLICATION_WIDTH, Constants.APPLICATION_HEIGHT);
+        set_titlebar (header_bar);
 
-        stackManager.loadViews(this);
+        stack_manager.load_views (this);
 
-        stackManager.getStack().visible_child_name = "progress-view";
-        fileManager.getRecipesFromJSON();
+        stack_manager.get_stack ().visible_child_name = "progress-view";
+        file_manager.get_recipes_from_json ();
 
-        addShortcuts();
+        add_shortcuts ();
     }
 
-    private void addShortcuts(){
-        key_press_event.connect ((e) => { 
+    private void add_shortcuts () {
+        key_press_event.connect ((e) => {
             switch (e.keyval) {
                 case Gdk.Key.r:
                   if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
-                    stackManager.getStack().visible_child_name = "progress-view";
-                    fileManager.getRecipesFromJSON();
+                    stack_manager.get_stack ().visible_child_name = "progress-view";
+                    file_manager.get_recipes_from_json ();
                   }
                   break;
                 case Gdk.Key.q:
-                  if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
-                    this.destroy();
+                  if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
+                    this.destroy ();
                   }
                   break;
             }
 
-            return false; 
+            return false;
         });
     }
 }
