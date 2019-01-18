@@ -1,3 +1,11 @@
+com.github.bartzaalberg.recipes (0.1.1) UNSTABLE; urgency=high
+
+  * Removed pkexec.policy
+  * Updated app center information
+  * Added OARS rating
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Fri, 18 Jan 2019 19:55s:00 +0200
+
 com.github.bartzaalberg.recipes (0.1.0) UNSTABLE; urgency=high
 
   * Moved recipes.json location

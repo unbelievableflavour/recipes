@@ -19,6 +19,14 @@
     <content_attribute id="social-info">mild</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.1.1" date="2019-01-18">
+      <description>
+        <p>Updated data for appenter</p>
+        <ul>
+          <li>Updated information for appcenter</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2019-01-18">
       <description>
         <p>Updated detail page</p>
