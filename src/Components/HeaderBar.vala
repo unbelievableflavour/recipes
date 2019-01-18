@@ -9,6 +9,7 @@ public class HeaderBar : Gtk.HeaderBar {
     private RecipeFileManager recipe_file_manager = RecipeFileManager.get_instance ();
     public Gtk.Button return_button = new Gtk.Button ();
     private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton ();
+    private Gtk.Label title_label = new Gtk.Label ("BLAIWAJAWLIDJWALDI");
 
     HeaderBar () {
         Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
@@ -17,7 +18,10 @@ public class HeaderBar : Gtk.HeaderBar {
         generate_return_button ();
 
         this.pack_start (return_button);
+        this.pack_end (language_button);
         this.show_close_button = true;
+
+        this.set_custom_title (title_label);
     }
 
     public static HeaderBar get_instance () {
@@ -26,7 +30,6 @@ public class HeaderBar : Gtk.HeaderBar {
         }
         return instance;
     }
-
 
     private void generate_language_button () {
         language_button.no_show_all = true;
@@ -48,9 +51,10 @@ public class HeaderBar : Gtk.HeaderBar {
 
     public void show_language_mode (bool answer) {
         language_button.visible = answer;
-        if (answer == true) {
-            this.set_custom_title (language_button);
-        }
+    }
+
+    public void show_page_title (bool answer) {
+        title_label.visible = answer;
     }
 
     public void show_return_button (bool answer) {
@@ -68,6 +72,10 @@ public class HeaderBar : Gtk.HeaderBar {
 
             language_button.append (label);
         }
+    }
+
+    public void update_page_title (Recipe recipe) {
+        title_label.set_text (recipe.get_name () + " - " + recipe.get_author ());
     }
 
     private void on_language_button_changed () {
