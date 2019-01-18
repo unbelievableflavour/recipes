@@ -9,7 +9,7 @@ public class HeaderBar : Gtk.HeaderBar {
     private RecipeFileManager recipe_file_manager = RecipeFileManager.get_instance ();
     public Gtk.Button return_button = new Gtk.Button ();
     private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton ();
-    private Gtk.Label title_label = new Gtk.Label ("BLAIWAJAWLIDJWALDI");
+    private Gtk.Label title_label = new Gtk.Label ("");
 
     HeaderBar () {
         Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
