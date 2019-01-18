@@ -53,7 +53,7 @@ public class RecipeFileManager : Object {
                 try {
                     parser.load_from_data ((string) mess.response_body.flatten ().data, -1);
 
-                    ListBox list_box = ListBox.get_instance ();
+                    PhotosFlowBox list_box = PhotosFlowBox.get_instance ();
                     list_box.get_installed_packages (translate_json_to_recipes (parser));
 
                 } catch (Error e) {

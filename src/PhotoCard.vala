@@ -1,7 +1,7 @@
 using Granite.Widgets;
 
 namespace Application {
-public class InstalledPackageRow : Gtk.Box {
+public class PhotoCard : Gtk.Box {
 
     private StackManager stack_manager = StackManager.get_instance ();
     private Granite.AsyncImage image;
@@ -9,7 +9,7 @@ public class InstalledPackageRow : Gtk.Box {
     private Gtk.Button photo_button;
     private Recipe recipe;
 
-    public InstalledPackageRow (Recipe recipe) {
+    public PhotoCard (Recipe recipe) {
         this.recipe = recipe;
         this.can_focus = false;
         this.orientation = Gtk.Orientation.VERTICAL;
