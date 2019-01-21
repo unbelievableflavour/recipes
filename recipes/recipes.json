@@ -21,6 +21,27 @@
         "languages": ["en", "nl"]
     },
     {
+        "id": "broccoli_beer_cheese_soup",
+        "title": "Broccoli beer cheese soup",
+        "thumbnail": "https://chowdown.io/images/broccoli-beer-cheese-soup.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
+        "id": "crockpot_buffalo_chicken",
+        "title": "Crockput buffalo chicken",
+        "thumbnail": "https://chowdown.io/images/crockpot-buffalo-chicken.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
+        "id": "banana_bread",
+        "title": "Banana bread",
+        "thumbnail": "https://chowdown.io/images/banana-bread.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
