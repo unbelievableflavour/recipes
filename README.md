@@ -1,5 +1,5 @@
 # Recipes
-A cookbook for Elementary OS
+A markdown recipes application
 
 <p align="center">
     <a href="https://appcenter.elementary.io/com.github.bartzaalberg.recipes">
