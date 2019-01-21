@@ -1,4 +1,5 @@
-![Bruschetta met tomaten](https://www.francescakookt.nl/wp-content/uploads/2017/08/Bruschetta-met-passata-basilicum-en-verse-tomaat_uitgelicht_1.jpg)
+![Bruschetta met tomaten](https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/bruschetta_with_tomato/image.jpg)
+[Image src](https://flic.kr/p/9HtP3v)
 
 # Omschrijving:
 
@@ -20,10 +21,10 @@ Bruschetta is een Italiaans aperitiefhapje dat bestaat uit gegrild brood, met kn
 3. De vel van de tomaat moet nu makkelijk te verwijderen zijn. Verwijder deze.
 4. Snijd ook het gedeelte met de zaadjes er uit en snijd het vruchtvlees in kleine blokjes.
 5. Doe de stukjes tomaat in een kom en voeg een klein beetje olijfolie toe.
-6. Hak de basilicum fijn, kneus de teentjes knoflook en schep beide door de tomaten. 
+6. Hak de basilicum fijn, kneus de teentjes knoflook en schep beide door de tomaten.
 7. Voeg een beetje peper toe aan het tomaten mengsel.
 8. Dek de kom goed af en laat minimaal 2 uur in de koelkast marineren (hele nacht kan ook).
 9. Snijd het brood in plakken en bestrijk aan beide kanten met een beetje olijfolie.
 10. Grill het brood aan beide kanten in een pan (of oven) knapperig.
-11. Verwijder de knoflook uit het bakje tomaten en verdeel over het brood. 
+11. Verwijder de knoflook uit het bakje tomaten en verdeel over het brood.
 12. Houd je van een extra sterke knoflook smaak? Laat dan de knoflook in de kom zitten.
