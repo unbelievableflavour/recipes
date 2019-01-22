@@ -1,4 +1,4 @@
-![Crockpot buffalo chicken](https://chowdown.io/images/broccoli-beer-cheese-soup.jpg)
+![Crockpot buffalo chicken](https://chowdown.io/images/crockpot-buffalo-chicken.jpg)
 
 # Description:
 
