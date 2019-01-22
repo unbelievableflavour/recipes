@@ -49,6 +49,13 @@
         "languages": ["en"]
     },
     {
+        "id": "green_chile_stew",
+        "title": "Green chile stew",
+        "thumbnail": "https://chowdown.io/images/green-chile-stew.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
