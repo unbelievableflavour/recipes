@@ -1,5 +1,8 @@
-[Image src](https://www.flickr.com/photos/stuart_spivack/2384692798/)
 ![Green chile stew](https://chowdown.io/images/green-chile-stew.jpg)
+
+[![Image src](https://raw.githubusercontent.com/bartzaalberg/recipes/master/data/icons/camera-icon.png#image-src)](
+    https://www.flickr.com/photos/stuart_spivack/2384692798/
+)
 
 # Description
 

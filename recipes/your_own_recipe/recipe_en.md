@@ -1,13 +1,15 @@
+![Cooking](https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/cooking.jpeg)
+
 # Add own recipe
 
 Do you want your own recipe to show up in the app?
 
 ### You can do one of the following things:
 
-* Just create a PR [here](https://github.com/bartzaalberg/recipes)
+* Just create a Pull Request [here](https://github.com/bartzaalberg/recipes). The steps how to do this can be found below.
 * Or send me an email at bartzaalberg@gmail.com
 
-### Steps for PR:
+# Steps for PR:
 
 1. Fork the repository.
 2. Create a folder with the name of your recipe under `/recipes` in the repository. (example `/recipes/very_nice_meat_recipe`)
@@ -25,6 +27,11 @@ Do you want your own recipe to show up in the app?
 
 Thats it! You can commit and create the pull request.
 
-#### Image
+### Image
 
-You can also add an image in the folder and link to it from the markdown and json file.
+You can also add an image in the folder and link to it from the markdown and json file. If you have to link to the original image page. just add the following code on the detailpage underneath your image.
+```
+[![Image src](https://raw.githubusercontent.com/bartzaalberg/recipes/master/data/icons/camera-icon.png#image-src)](
+    YOUR IMAGE LINK HERE
+)
+```

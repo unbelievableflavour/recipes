@@ -1,5 +1,8 @@
-[Image src](https://flic.kr/p/9HtP3v)
 ![Bruschetta with tomatoes](https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/bruschetta_with_tomato/image.jpg)
+
+[![Image src](https://raw.githubusercontent.com/bartzaalberg/recipes/master/data/icons/camera-icon.png#image-src)](
+    https://flic.kr/p/9HtP3v
+)
 
 # Description:
 

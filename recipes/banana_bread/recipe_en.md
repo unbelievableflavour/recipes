@@ -1,5 +1,8 @@
-[Image src](https://www.flickr.com/photos/whitneyinchicago/4413307543/)
 ![Banana bread](https://chowdown.io/images/banana-bread.jpg)
+
+[![Image src](https://raw.githubusercontent.com/bartzaalberg/recipes/master/data/icons/camera-icon.png#image-src)](
+    https://www.flickr.com/photos/whitneyinchicago/4413307543/
+)
 
 # Description:
 
