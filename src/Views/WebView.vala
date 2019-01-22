@@ -184,8 +184,6 @@ namespace Application {
         public void update_html_view () {
             string html = "<!doctype html><meta charset=utf-8><head>";
             html += "<link rel=\"stylesheet\" href=\"" + set_highlight_stylesheet () + "\"/>";
-            html += "<script src=\"" + Build.PKGDATADIR + "/highlight.js/lib/highlight.min.js\"></script>";
-            html += "<script>hljs.initHighlightingOnLoad();</script>";
             html += "<style>" + set_stylesheet () + "</style>";
             html += "</head><body><div class=\"markdown-body\">";
             html += process ();
