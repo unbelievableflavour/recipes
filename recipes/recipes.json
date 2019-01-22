@@ -42,6 +42,13 @@
         "languages": ["en"]
     },
     {
+        "id": "downtown_marinade",
+        "title": "Downtown marinade",
+        "thumbnail": "https://chowdown.io/images/downtown-marinade.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
