@@ -45,6 +45,16 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.1.2" date="2019-01-22">
+      <description>
+        <p>Fixed image scaling</p>
+        <ul>
+          <li>Added OARS 1.1</li>
+          <li>Added icon for image src</li>
+          <li>Fixed image scaling</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.1" date="2019-01-18">
       <description>
         <p>Updated data for appenter</p>

@@ -1,10 +1,18 @@
+com.github.bartzaalberg.recipes (0.1.2) UNSTABLE; urgency=low
+
+  * Added OARS 1.1
+  * Added icon for image src
+  * Fixed image scaling
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Tue, 22 Jan 2019 17:44:00 +0200
+
 com.github.bartzaalberg.recipes (0.1.1) UNSTABLE; urgency=high
 
   * Removed pkexec.policy
   * Updated app center information
   * Added OARS rating
 
- -- Bart Zaalberg <bartzaalberg@gmail.com>  Fri, 18 Jan 2019 19:55s:00 +0200
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Fri, 18 Jan 2019 19:55:00 +0200
 
 com.github.bartzaalberg.recipes (0.1.0) UNSTABLE; urgency=high
 
