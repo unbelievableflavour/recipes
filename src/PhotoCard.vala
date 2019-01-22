@@ -25,7 +25,7 @@ public class PhotoCard : Gtk.Box {
 
         var file = File.new_for_uri (recipe.get_thumbnail ());
 
-        image.set_from_file_async.begin (file, 300, 200, false);
+        image.set_from_file_async.begin (file, 300, -1, true);
         image.has_tooltip = true;
         image.set_tooltip_text (recipe.get_name ());
 
