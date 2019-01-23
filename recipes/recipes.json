@@ -63,6 +63,13 @@
         "languages": ["en"]
     },
     {
+        "id": "new_york_strip",
+        "title": "New York strip",
+        "thumbnail": "https://chowdown.io/images/new-york-strip.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
