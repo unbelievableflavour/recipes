@@ -95,7 +95,7 @@
   <developer_name>Bart Zaalberg</developer_name>
   <custom>
     <value key="x-appcenter-color-primary">#fff</value>
-    <value key="x-appcenter-color-primary-text">#c4daff</value>
+    <value key="x-appcenter-color-primary-text">#006DF0</value>
     <value key="x-appcenter-suggested-price">1</value>
   </custom>
   <url type="homepage">https://github.com/bartzaalberg/recipes</url>
