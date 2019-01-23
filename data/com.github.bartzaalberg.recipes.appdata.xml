@@ -45,6 +45,15 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.1.3" date="2019-01-23">
+      <description>
+        <p>Fixed single-instancing</p>
+        <ul>
+          <li>Fixed single-instancing</li>
+          <li>Darkened color for appcenter</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.2" date="2019-01-22">
       <description>
         <p>Fixed image scaling</p>

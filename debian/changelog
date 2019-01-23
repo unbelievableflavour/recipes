@@ -1,3 +1,10 @@
+com.github.bartzaalberg.recipes (0.1.3) UNSTABLE; urgency=low
+
+  * Fixed single-instancing
+  * Darkened color for appcenter
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Web, 23 Jan 2019 18:52:00 +0200
+
 com.github.bartzaalberg.recipes (0.1.2) UNSTABLE; urgency=low
 
   * Added OARS 1.1
