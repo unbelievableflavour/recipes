@@ -8,7 +8,7 @@ A markdown recipes application
 </p>
 
 <p align="center">
-    <img 
+    <img
     src="https://raw.githubusercontent.com/bartzaalberg/recipes/master/screenshot.png" />
 </p>
 
@@ -38,7 +38,7 @@ These dependencies must be present before building
  - `libsoup2.4-dev`
 
  You can install these on a Ubuntu-based system by executing this command:
- 
+
  `sudo apt install valac libgtk-3-dev libgranite-dev libwebkit2gtk-4.0-dev libmarkdown2-dev json-glib-1.0 libsoup2.4-dev`
 
 ### Building
@@ -52,6 +52,10 @@ ninja
 ### Installing
 
 `sudo ninja install`
+
+## Recompile the schema after installation
+
+`sudo glib-compile-schemas /usr/share/glib-2.0/schemas`
 
 ### Update .pot file
 

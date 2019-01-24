@@ -66,7 +66,6 @@ public class StackManager : Object {
         });
 
         window.add (stack);
-        window.show_all ();
    }
 
    public void set_detail_recipe (Recipe recipe) {
