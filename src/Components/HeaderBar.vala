@@ -7,7 +7,9 @@ public class HeaderBar : Gtk.HeaderBar {
 
     private StackManager stack_manager = StackManager.get_instance ();
     private RecipeFileManager recipe_file_manager = RecipeFileManager.get_instance ();
+    private PDFExporter pdf_exporter = new PDFExporter ();
     public Gtk.Button return_button = new Gtk.Button ();
+    public Gtk.Button download_button = new Gtk.Button ();
     private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton ();
     private Gtk.Label title_label = new Gtk.Label ("");
 
@@ -16,9 +18,11 @@ public class HeaderBar : Gtk.HeaderBar {
 
         generate_language_button ();
         generate_return_button ();
+        generate_download_button ();
 
         this.pack_start (return_button);
-        this.pack_end (language_button);
+        this.pack_start (language_button);
+        this.pack_end (download_button);
         this.show_close_button = true;
 
         this.set_custom_title (title_label);
@@ -48,6 +52,15 @@ public class HeaderBar : Gtk.HeaderBar {
         });
     }
 
+    private void generate_download_button () {
+        download_button.label = _("Download");
+        download_button.no_show_all = true;
+        download_button.visible = false;
+        download_button.get_style_context ().add_class ("download-button");
+        download_button.clicked.connect (() => {
+            pdf_exporter.export_as_pdf ();
+        });
+    }
 
     public void show_language_mode (bool answer) {
         language_button.visible = answer;
@@ -59,6 +72,10 @@ public class HeaderBar : Gtk.HeaderBar {
 
     public void show_return_button (bool answer) {
         return_button.visible = answer;
+    }
+
+    public void show_download_button (bool answer) {
+        download_button.visible = answer;
     }
 
     public void update_languages_button (Array<string> languages) {
