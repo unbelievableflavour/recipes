@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.bartzaalberg.recipes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 18:58+0100\n"
+"POT-Creation-Date: 2019-01-24 18:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,51 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/Views/ProgressView.vala:7
+#: src/Services/PDFExporter.vala:28
+msgid "Print to File"
+msgstr ""
+
+#: src/Services/PDFExporter.vala:50
+msgid "Select destination markdown file"
+msgstr ""
+
+#: src/Services/PDFExporter.vala:52 src/Services/PDFExporter.vala:68
+#: src/Services/PDFExporter.vala:85
+msgid "Save"
+msgstr ""
+
+#: src/Services/PDFExporter.vala:58
+msgid "Select markdown file to open"
+msgstr ""
+
+#: src/Services/PDFExporter.vala:60
+msgid "Open"
+msgstr ""
+
+#: src/Services/PDFExporter.vala:66
+msgid "Select destination HTML file"
+msgstr ""
+
+#: src/Services/PDFExporter.vala:83
+msgid "Select destination PDF file"
+msgstr ""
+
+#: src/Services/PDFExporter.vala:108
+msgid "_Cancel"
+msgstr ""
+
+#: src/Views/ProgressView.vala:8
 msgid "Please Wait"
 msgstr ""
 
-#: src/Views/ProgressView.vala:7
+#: src/Views/ProgressView.vala:9
 msgid "Operation is in progress"
 msgstr ""
 
-#: src/Components/HeaderBar.vala:40
+#: src/Components/HeaderBar.vala:46
 msgid "Back"
+msgstr ""
+
+#: src/Components/HeaderBar.vala:56
+msgid "Download"
 msgstr ""
