@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2017 Your Name <you@email.com> -->
 <component type="desktop">
   <id>com.github.bartzaalberg.recipes</id>
   <metadata_license>CC0</metadata_license>
@@ -11,8 +10,8 @@
     <p>Features:</p>
      <ul>
        <li>Read awesome recipes</li>
-       <li>Easily add your own recipe by doing a PR.</li>
-       <li>Multilangual</li>
+       <li>Easily add your own recipe by doing a PR</li>
+       <li>Read the recipes in multiple languages</li>
     </ul>
   </description>
   <content_rating type="oars-1.1">

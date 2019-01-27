@@ -105,7 +105,7 @@ public class PDFExporter {
             title,
             new Gtk.Window (),
             chooser_action,
-            _("_Cancel"), Gtk.ResponseType.CANCEL,
+            _("Cancel"), Gtk.ResponseType.CANCEL,
             accept_button_label, Gtk.ResponseType.ACCEPT);
 
 

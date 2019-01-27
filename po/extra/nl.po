@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:6
+#: data/com.github.bartzaalberg.recipes.desktop.in:3
+msgid "Recipes"
+msgstr "Recepten"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:7
+#: data/com.github.bartzaalberg.recipes.desktop.in:4
+msgid "A markdown recipes application"
+msgstr "Een markdown recepten applicatie"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:9
+msgid ""
+"Do some cooking with some easy recipes. "
+"All the recipes are written in simple markdown. Don't see what you like? Add your own!"
+msgstr ""
+"Begin met koken met simpele recepten"
+"Alle recepten zijn simpel geschreven in markdown. Zie je niets leuks? Voeg je eigen recepten toe!"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:10
+msgid "Features:"
+msgstr "Kenmerken:"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:12
+msgid "Read awesome recipes"
+msgstr "Lees leuke recepten"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:13
+msgid "Easily add your own recipe by doing a PR"
+msgstr "Voeg eenvoudig je eigen recept toe door middel van een PR"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:14
+msgid "Read the recipes in multiple languages"
+msgstr "Lees recepten in meerdere talen"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:30
+msgid "Bart Zaalberg"
+msgstr "Bart Zaalberg"
+
+#: data/com.github.bartzaalberg.recipes.desktop.in:6
+msgid "com.github.bartzaalberg.recipes"
+msgstr "com.github.bartzaalberg.recipes"
+
+#: data/com.github.bartzaalberg.recipes.desktop.in:11
+msgid "cooking;recipes;"
+msgstr "cooking;recipes;"
+
+#: data/com.github.bartzaalberg.recipes.desktop.in:16
+msgid "About Recipes"
+msgstr "Over Recipes"

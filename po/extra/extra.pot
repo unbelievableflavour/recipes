@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.bartzaalberg.alias package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-24 19:02+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:6
+#: data/com.github.bartzaalberg.recipes.desktop.in:3
+msgid "Recipes"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:7
+#: data/com.github.bartzaalberg.recipes.desktop.in:4
+msgid "A markdown recipes application"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:9
+msgid ""
+"Do some cooking with some easy recipes. "
+"All the recipes are written in simple markdown. Don't see what you like? Add your own!"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:10
+msgid "Features:"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:12
+msgid "Read awesome recipes"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:13
+msgid "Easily add your own recipe by doing a PR"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:14
+msgid "Read the recipes in multiple languages"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:30
+msgid "Bart Zaalberg"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.desktop.in:6
+msgid "com.github.bartzaalberg.alias"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.desktop.in:11
+msgid "cooking;recipes;"
+msgstr ""
+
+#: data/com.github.bartzaalberg.recipes.desktop.in:16
+msgid "About Recipes"
+msgstr ""
