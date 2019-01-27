@@ -1,3 +1,11 @@
+com.github.bartzaalberg.recipes (0.3.1) UNSTABLE; urgency=low
+
+  * Added Dutch translation
+  * Added ability to translate metadata
+  * Deleted incompatible lines from desktop.in
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Sun, 27 Jan 2019 17:43:00 +0200
+
 com.github.bartzaalberg.recipes (0.3.0) UNSTABLE; urgency=low
 
   * Added Dutch translation
