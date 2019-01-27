@@ -44,6 +44,15 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.3.0" date="2019-01-27">
+      <description>
+        <p>Added Dutch translation</p>
+        <ul>
+          <li>Added Dutch translation</li>
+          <li>Added ability to translate metadata</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.2.1" date="2019-01-24">
       <description>
         <p>Added PDF export</p>

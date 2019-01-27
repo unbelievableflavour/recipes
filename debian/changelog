@@ -1,3 +1,10 @@
+com.github.bartzaalberg.recipes (0.3.0) UNSTABLE; urgency=low
+
+  * Added Dutch translation
+  * Added ability to translate metadata
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Sun, 27 Jan 2019 12:29:00 +0200
+
 com.github.bartzaalberg.recipes (0.2.1) UNSTABLE; urgency=low
 
   * Added exporting of recipe to PDF
