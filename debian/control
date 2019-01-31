@@ -14,7 +14,7 @@ Build-Depends: meson,
 
 Package: com.github.bartzaalberg.recipes
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, snapd, ttf-ubuntu-font-family
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
 Description: Recipes
  Fun recipes
