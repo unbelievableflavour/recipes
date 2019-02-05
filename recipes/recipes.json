@@ -70,6 +70,13 @@
         "languages": ["en"]
     },
     {
+        "id": "nilla_wafer_french_toast",
+        "title": "Nilla Wafer French Toast",
+        "thumbnail": "https://chowdown.io/images/nilla-wafer.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
