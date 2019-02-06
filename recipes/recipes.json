@@ -77,6 +77,13 @@
         "languages": ["en"]
     },
     {
+        "id": "one_minute_muffin",
+        "title": "One Minute Muffin",
+        "thumbnail": "https://chowdown.io/images/one-minute-muffin.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
