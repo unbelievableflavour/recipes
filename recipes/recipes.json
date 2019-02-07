@@ -84,6 +84,13 @@
         "languages": ["en"]
     },
     {
+        "id": "pork_steaks",
+        "title": "Pork Steaks",
+        "thumbnail": "https://chowdown.io/images/pork-steaks.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
