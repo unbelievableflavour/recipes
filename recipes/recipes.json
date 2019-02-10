@@ -91,6 +91,13 @@
         "languages": ["en"]
     },
     {
+        "id": "red_berry_tart",
+        "title": "Red Berry Tart",
+        "thumbnail": "https://chowdown.io/images/red-berry-tart.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
