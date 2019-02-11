@@ -98,6 +98,13 @@
         "languages": ["en"]
     },
     {
+        "id": "roasted_brussels_sprouts",
+        "title": "Roasted Brussels Sprouts",
+        "thumbnail": "https://chowdown.io/images/roasted-brussels-sprouts.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
