@@ -81,7 +81,7 @@
         "title": "One Minute Muffin",
         "thumbnail": "https://chowdown.io/images/one-minute-muffin.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en"]
+        "languages": ["en", "nl"]
     },
     {
         "id": "pork_steaks",
