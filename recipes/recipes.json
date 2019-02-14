@@ -105,6 +105,13 @@
         "languages": ["en"]
     },
     {
+        "id": "roasted_okra",
+        "title": "Roasted Okra",
+        "thumbnail": "https://chowdown.io/images/roasted-okra.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
