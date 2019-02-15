@@ -112,6 +112,13 @@
         "languages": ["en"]
     },
     {
+        "id": "smashed_carrots",
+        "title": "Smashed Carrots",
+        "thumbnail": "https://chowdown.io/images/smashed-carrots.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
