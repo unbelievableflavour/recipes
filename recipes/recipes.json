@@ -119,6 +119,13 @@
         "languages": ["en"]
     },
     {
+        "id": "stuffed_peppers",
+        "title": "Stuffed Peppers",
+        "thumbnail": "https://chowdown.io/images/stuffed-peppers.jpg",
+        "author": "Clark Wimberly",
+        "languages": ["en"]
+    },
+    {
         "id": "your_own_recipe",
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
