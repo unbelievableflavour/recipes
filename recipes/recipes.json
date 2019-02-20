@@ -116,7 +116,7 @@
         "title": "Smashed Carrots",
         "thumbnail": "https://chowdown.io/images/smashed-carrots.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en"]
+        "languages": ["en", "nl"]
     },
     {
         "id": "stuffed_peppers",
