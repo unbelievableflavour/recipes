@@ -95,7 +95,7 @@
         "title": "Red Berry Tart",
         "thumbnail": "https://chowdown.io/images/red-berry-tart.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en"]
+        "languages": ["en", "nl"]
     },
     {
         "id": "roasted_brussels_sprouts",
