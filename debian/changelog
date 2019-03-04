@@ -1,3 +1,9 @@
+com.github.bartzaalberg.recipes (0.5.0) UNSTABLE; urgency=low
+
+  * Added new icon
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Mon, 4 Mar 2019 17:37:00 +0200
+
 com.github.bartzaalberg.recipes (0.4.0) UNSTABLE; urgency=low
 
   * Removed unused dependencies
