@@ -1,12 +1,12 @@
 ![Gevulde Paprika's](https://chowdown.io/images/stuffed-peppers.jpg)
 
-# Omschrijving:
+# Omschrijving
 
 Deze paprika's vonden we tijdens Happy Hours bij Chiso's Grill in de Bee Cave. Sindsdien hebben wij het recept een beetje aangepast. Dit recept is een beginpunt, voeg toe/verwijder welke ingrediënten je wilt (bijvoorbeeld meer hete saus). Soms bestel ik de pepers op Amazon. Mijn favoriete hete saus is Franks Red Hot, Jardine's Texas Champagne, en natuurlijk Yellowbird.
 
 leuk feitje: Peppedew pepers zijn een nieuw ding. Het is de merknaam van pikante pepers welke zijn ontdekt in Zuid-Afrika in 1993. Bedank Wikipedia voor de scholing.
 
-# Ingrediënten:
+# Ingrediënten
 
 * 1 pot Peppedew Pepers (of pikante peper)
 * 120 gram geiten kaas (smaak naar keuze)
@@ -16,7 +16,7 @@ leuk feitje: Peppedew pepers zijn een nieuw ding. Het is de merknaam van pikante
 * flinke scheut van hete saus (Franks, Yellowbird)
 * flinke scheut pepper
 
-# Stappen:
+# Stappen
 
 1. voeg de geiten kaas, mayo, zure room, 2/3e van je bieslook, hete sauce, zwarte peper samen
 2. als je er zin in hebt, kneed dan het geheel tot het zacht is.
