@@ -1,10 +1,10 @@
 ![Soupe à la bière, au fromage et au brocoli](https://chowdown.io/images/broccoli-beer-cheese-soup.jpg)
 
-# Description :
+# Description
 
 Cette recette est inspirée d'une de mes recettes préférées, la soupe au fromage et à la bière Gourmand's, qui utilise du Shiner Bock. N'hésitez pas à utiliser ce que vous voulez, puis allez chez Gourmand's pour avoir le vrai truc.
 
-# Ingrédients :
+# Ingrédients
 
 * 4 cuillères à soupe de beurre
 * 150g d'oignons coupés en dés
@@ -20,7 +20,7 @@ Cette recette est inspirée d'une de mes recettes préférées, la soupe au from
 * 1 cuillère à café de sauce Worcestershire
 * 1/2 cuillère à café de sauce piquante
 
-# Étapes :
+# Étapes
 
 1. Commencez par le beurre, les oignons, les carottes, le céleri et l'ail jusqu'à ce qu'ils soient cuits.
 2. Ajoutez la farine, remuez bien, faites cuire pendant 4-5 minutes.
