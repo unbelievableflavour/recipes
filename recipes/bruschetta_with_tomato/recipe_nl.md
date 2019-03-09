@@ -4,11 +4,11 @@
     https://flic.kr/p/9HtP3v
 )
 
-# Omschrijving:
+# Omschrijving
 
 Bruschetta is een Italiaans aperitiefhapje dat bestaat uit gegrild brood, met knoflook en olijfolie.
 
-# Ingrediënten:
+# Ingrediënten
 
 * 5 tomaten
 * 1 ciabatta brood ( of stokbrood)
@@ -17,7 +17,7 @@ Bruschetta is een Italiaans aperitiefhapje dat bestaat uit gegrild brood, met kn
 * Scheutje olijfolie
 * Snufje zwarte peper
 
-# Stappen:
+# Stappen
 
 1. Vul een kom met kokend heet water. Snijd met een mes een kruis aan de onderkant van de tomaten.
 2. Leg de tomaten een minuutje in het water en spoel ze af moet koud water.

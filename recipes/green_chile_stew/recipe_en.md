@@ -8,7 +8,7 @@
 
 This is a simple one, consisting of a pre-made soup mix and whatever you’ve got around the kitchen (or campsite). Feel free to sub/swap/switch anything in the ingredient list— anything’s fair game!
 
-# Ingredients:
+# Ingredients
 
 * 1 jar of green chile stew mix
 * 1lb ground chicken
@@ -18,7 +18,7 @@ This is a simple one, consisting of a pre-made soup mix and whatever you’ve go
 
 # Steps
 
-Start onions in pan, cook down
-Add chicken, corn
-Add stew mix
-Serve with croutons
+1. Start onions in pan, cook down
+2. Add chicken, corn
+3. Add stew mix
+4. Serve with croutons

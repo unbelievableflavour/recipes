@@ -4,11 +4,11 @@
     https://flic.kr/p/9HtP3v
 )
 
-# Description:
+# Description
 
 Bruschetta is an antipasto (starter dish) from Italy consisting of grilled bread, garlic and topped with olive oil.
 
-# Ingredients:
+# Ingredients
 
 * 5 tomatoes
 * 1 ciabatta bread ( or just a baguette)
@@ -17,9 +17,9 @@ Bruschetta is an antipasto (starter dish) from Italy consisting of grilled bread
 * Some olive oil
 * Pinch of black pepper
 
-# Steps:
+# Steps
 
-1. Fill a bowl with hot water. Snijd met een mes een kruis aan de onderkant van de tomaten.
+1. Fill a bowl with hot water. Using a knife, cut a cross on the underside of the tomatoes.
 2. Put the tomatoes in the water for around 1 minute and rinse them with cold water.
 3. It should now be easy to peel of the skin of the tomato. Remove it.
 4. Cut the part with the seeds out and throw it away. Cut the rest of tomato in pieces.

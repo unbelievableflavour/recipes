@@ -4,11 +4,11 @@
     https://www.flickr.com/photos/whitneyinchicago/4413307543/
 )
 
-# Description:
+# Description
 
 From Angie’s mom
 
-# Ingredients:
+# Ingredients
 
 * 4 bananas
 * 1/2 cup butter
@@ -20,7 +20,7 @@ From Angie’s mom
 * pinch salt
 * 1/4 cup nuts (we like pecans)
 
-# Steps:
+# Steps
 
 1. Beat the eggs, then cream with the butter and sugar
 2. Mix in bananas, then flour, baking soda/powder, salt, and nuts

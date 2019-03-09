@@ -1,15 +1,15 @@
 ![Roasted Okra](https://chowdown.io/images/roasted-okra.jpg)
 
-# Description:
+# Description
 
 I love me some okra, but prep is usually enough to avoid making it. This simple dish requires only a single cut per pod and a dash of seasoning- that’s it.
 
-# Ingredients:
+# Ingredients
 
 * 1 bunch of okra
 * salt, pepper, etc to taste
 
-# Steps:
+# Steps
 
 1. Wash the okra dang good
 2. Slice in half lengthwise

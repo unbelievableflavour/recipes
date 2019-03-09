@@ -1,15 +1,15 @@
 ![New York strip](https://chowdown.io/images/new-york-strip.jpg)
 
-# Description:
+# Description
 
 Cooking a steak in a water bath is the ultimate, both in terms of flavor and laziness. Dial in a precise temperature, then go take a nap.
 
-# Ingredients:
+# Ingredients
 
 * NY Strip Steak(s)
 * salt to taste
 
-# Steps:
+# Steps
 
 1. Bag the steak(s) and drop into 140° sous vide bath for 2 hours (or consult this handy [ChefSteps chart](https://s3.amazonaws.com/chefsteps/static/ChefSteps-SousVideReference.pdf))
 2. Pull from the bag, pat dry

@@ -1,10 +1,10 @@
 ![Broccoli beer cheese soup](https://chowdown.io/images/broccoli-beer-cheese-soup.jpg)
 
-# Description:
+# Description
 
 This recipe is inspired by one of my favorites, Gourmand’s Beer Cheese Soup, which uses Shiner Bock. Feel free to use whatever you want, then go to Gourmand’s to have the real thing.
 
-# Ingredients:
+# Ingredients
 
 * 4 tablespoons butter
 * 1 cup diced onion
@@ -20,7 +20,7 @@ This recipe is inspired by one of my favorites, Gourmand’s Beer Cheese Soup, w
 * 1 teaspoon Worcestershire sauce
 * 1/2 teaspoon hot sauce
 
-# Steps:
+# Steps
 
 1. Start with butter, onions, carrots, celery, garlic until cooked down.
 2. Add flour, stir well, cook for 4-5 mins.
