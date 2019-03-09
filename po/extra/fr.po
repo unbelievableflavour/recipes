@@ -56,8 +56,8 @@ msgid "Bart Zaalberg"
 msgstr "Bart Zaalberg"
 
 #: data/com.github.bartzaalberg.recipes.desktop.in:6
-msgid "com.github.bartzaalberg.alias"
-msgstr "com.github.bartzaalberg.alias"
+msgid "com.github.bartzaalberg.recipes"
+msgstr "com.github.bartzaalberg.recipes"
 
 #: data/com.github.bartzaalberg.recipes.desktop.in:11
 msgid "cooking;recipes;"
