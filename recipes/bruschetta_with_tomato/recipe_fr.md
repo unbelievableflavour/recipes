@@ -4,11 +4,11 @@
     https://flic.kr/p/9HtP3v
 )
 
-# Description :
+# Description
 
 La bruschetta est un hors-d'œuvre italien composé de pain grillé, d'ail et d'huile d'olive.
 
-# Ingrédients :
+# Ingrédients
 
 * 5 tomates
 * 1 pain ciabatta (ou juste une baguette)
@@ -17,7 +17,7 @@ La bruschetta est un hors-d'œuvre italien composé de pain grillé, d'ail et d'
 * De l'huile d'olive
 * 1 pincée de poivre noir
 
-# Étapes :
+# Étapes
 
 1. Remplissez un bol d'eau chaude. À l'aide d'un couteau, découpez une croix sur la face inférieure des tomates.
 2. Mettez les tomates dans l'eau pendant environ 1 minute et rincez-les à l'eau froide.
