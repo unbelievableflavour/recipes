@@ -9,7 +9,7 @@ C'est ma marinade pour tout, des steaks aux crevettes en passant par les fajitas
 * 225ml de vinaigrette italienne
 * 60ml de sauce soja
 * 60ml de pâte de piment
-* 40g sugar
+* 40g de sucre
 * Un filet de sauce piquante
 
 # Étapes :
