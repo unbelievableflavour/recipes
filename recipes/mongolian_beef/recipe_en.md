@@ -4,13 +4,13 @@
     https://www.flickr.com/photos/crd/4988397833/
 )
 
-# Description:
+# Description
 
 A quick go-to dinner. Can be made with almost any meat. I often used ground. Works perfect for lettuce wraps. Try replacing the onion with thinly sliced fennel.
 
 Optional: spice this thing up, with a dose of your favorite chili paste/sauce.
 
-# Ingredients:
+# Ingredients
 
 * vegetable oil
 * 1⁄2 teaspoon ginger
@@ -22,7 +22,7 @@ Optional: spice this thing up, with a dose of your favorite chili paste/sauce.
 * 1 yellow onion
 * 2 large green onions
 
-# Steps:
+# Steps
 
 1. Slice the beef thin and cook with a bit of oil (your choice) and the yellow onion (cut into petals) in a medium saucepan. Set aside when done.
 2. Make the sauce by heating 2 tsp of vegetable oil over med/low heat in the same pan. Don’t get the oil too hot.
