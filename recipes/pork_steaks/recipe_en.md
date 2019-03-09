@@ -1,15 +1,15 @@
 ![Pork Steaks](https://chowdown.io/images/pork-steaks.jpg)
 
-# Description:
+# Description
 
 Pork is called “the other white meat”, but this sous vide technique is so dang good I’m gonna graduate it up to “THE white meat”.
 
-# Ingredients:
+# Ingredients
 
 * pork shoulder (or other cheap cut)
 * immerison circulator (we like the Anova)
 
-# Steps:
+# Steps
 
 1. Sous vide the pork at 140° for 24h
 2. Submerge bag into an ice bath to completely cool
