@@ -22,7 +22,7 @@ De la part de la mère d'Angie
 
 # Étapes :
 
-1. Battez les œufs, puis battez-les en crème avec le beurre et le sucre
-2. Incorporez les bananes, puis la farine, le bicarbonate de soude en poudre, la levure, le sel et les noix
-3. Versez dans un moule graissé et fariné
-4. Faites cuire au four jusqu'à ce qu'il soit brun ou craquelé et que le couteau en ressorte propre
+1. Battez les œufs, puis battez-les en crème avec le beurre et le sucre.
+2. Incorporez les bananes, puis la farine, le bicarbonate de soude en poudre, la levure, le sel et les noix.
+3. Versez dans un moule graissé et fariné.
+4. Faites cuire au four jusqu'à ce qu'il soit brun ou craquelé et que le couteau en ressorte propre.
