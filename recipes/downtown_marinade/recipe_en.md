@@ -1,18 +1,18 @@
-![Downtown marinade](https://chowdown.io/images/downtown-marinade.jpg)
+![Marinade du centre-ville](https://chowdown.io/images/downtown-marinade.jpg)
 
-# Description:
+# Description :
 
-This is my go-to marinade for everything from steaks to shrimp to fajitas to pork. Seriously, if I’m cooking or grilling meat, there’s a good chance this is what it’s soaking in. It’s perfect for “street meat” aka cart or truck, like tacos and wraps and kebabs and skewers and everything in between. Start with this base, add spice or herb as desired.
+C'est ma marinade pour tout, des steaks aux crevettes en passant par les fajitas et le porc. Sérieusement, si je fais cuire ou griller de la viande, il y a de fortes chances que c'est ce dans quoi elle trempe. C'est parfait pour les tacos, les wraps, les brochettes, et tout ce qui se trouve entre les deux. Commencez par cette base, ajoutez des épices ou des herbes au goût.
 
-# Ingredients:
+# Ingrédients :
 
-* 1 cup Italian dressing
-* 1/4 cup soy sauce
-* 1/4 cup chili paste (like sambal oelek)
-* 1/4 sugar
-* dash hot sauce (like Texas Champagne or Yellowbird)
+* 225ml de vinaigrette italienne
+* 60ml de sauce soja
+* 60ml de pâte de piment
+* 40g sugar
+* Un filet de sauce piquante
 
-# Steps:
+# Étapes :
 
-1. Mix everything in a large zip bag (or bowl)
-2. Toss meat and let sit (from 1-36hr)
+1. Mélangez le tout dans un grand sac zippé (ou un bol).
+2. Ajoutez la viande et laissez reposer (de 1 à 36 heures).
