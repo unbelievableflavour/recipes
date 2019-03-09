@@ -1,10 +1,10 @@
 ![Nilla Wafer French Toast](https://chowdown.io/images/nilla-wafer.jpg)
 
-# Description:
+# Description
 
 From a weird Sunday morning when I realized we didn’t have bread. Solid hitter. Served with Treehive Syrup, my new favorite breakfast obsession (it’s mixed with honey, vanilla, and cinnamon, oof).
 
-# Ingredients:
+# Ingredients
 
 * 4 eggs
 * 1/4 cup heavy cream
@@ -12,7 +12,7 @@ From a weird Sunday morning when I realized we didn’t have bread. Solid hitter
 * sprinkle of sugar
 * 4 cups Nilla Wafers Minis
 
-# Steps:
+# Steps
 
 1. Beat the eggs, heavy cream, vanilla, and sugar.
 2. Arrange the nillas in a few flat layers in a baking dish.
