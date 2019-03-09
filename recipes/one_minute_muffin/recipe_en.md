@@ -6,7 +6,7 @@
 
 # Description
 
-This flax muffin is quick, vertsatile (just mix in other goodies), and only makes one at a time, so you’ve got no huge tray to tempt you. Custom muffins every morning!
+This flax muffin is quick, versatile (just mix in other goodies), and only makes one at a time, so you’ve got no huge tray to tempt you. Custom muffins every morning!
 
 # Ingredients
 
@@ -20,5 +20,5 @@ This flax muffin is quick, vertsatile (just mix in other goodies), and only make
 # Steps
 
 1. Mix all ingredients in a coffee mug.
-2. Micorowave for one minute on high.
+2. Microwave for one minute on high.
 
