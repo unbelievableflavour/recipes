@@ -4,11 +4,11 @@
     https://divaliciousrecipes.com/flax-muffin-in-a-mug-in-a-minute-low-carb-and-gluten-free/
 )
 
-# Omschrijving:
+# Omschrijving
 
 Deze lijnzaad muffin is snel, veelzijdig (mix in andere lekkernijen), en je kunt er maar 1 per keer maken, dus geen gevulde lade met aanlokkelijke muffins. Zelfgemaakte muffins elke ochtend!
 
-# Ingrediënten:
+# Ingrediënten
 
 * 1⁄4 cup lijnzaad maaltijd
 * 1⁄2 teelepel bak poeder
@@ -17,7 +17,7 @@ Deze lijnzaad muffin is snel, veelzijdig (mix in andere lekkernijen), en je kunt
 * 1 teelepel olie
 * suiker voor de smaak (of honing, stevia)
 
-# Stappen:
+# Stappen
 
 1. Mix alle ingredienten in een koffie mok.
 2. Zet de mok in magnetron voor 1 minuut.
