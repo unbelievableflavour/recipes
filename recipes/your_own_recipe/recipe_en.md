@@ -9,7 +9,7 @@ Do you want your own recipe to show up in the app?
 * Just create a Pull Request [here](https://github.com/bartzaalberg/recipes). The steps how to do this can be found below.
 * Or send me an email at bartzaalberg@gmail.com
 
-# Steps for PR:
+# Steps for PR
 
 1. Fork the repository.
 2. Create a folder with the name of your recipe under `/recipes` in the repository. (example `/recipes/very_nice_meat_recipe`)
