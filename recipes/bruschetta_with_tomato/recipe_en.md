@@ -19,7 +19,7 @@ Bruschetta is an antipasto (starter dish) from Italy consisting of grilled bread
 
 # Steps:
 
-1. Fill a bowl with hot water. Snijd met een mes een kruis aan de onderkant van de tomaten.
+1. Fill a bowl with hot water. Using a knife, cut a cross on the underside of the tomatoes.
 2. Put the tomatoes in the water for around 1 minute and rinse them with cold water.
 3. It should now be easy to peel of the skin of the tomato. Remove it.
 4. Cut the part with the seeds out and throw it away. Cut the rest of tomato in pieces.
