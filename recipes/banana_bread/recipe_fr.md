@@ -4,11 +4,11 @@
     https://www.flickr.com/photos/whitneyinchicago/4413307543/
 )
 
-# Description :
+# Description
 
 De la part de la mère d'Angie
 
-# Ingrédients :
+# Ingrédients
 
 * 4 bananes
 * 110g de beurre
@@ -20,7 +20,7 @@ De la part de la mère d'Angie
 * 1 pincée de sel
 * 30g de noix
 
-# Étapes :
+# Étapes
 
 1. Battez les œufs, puis battez-les en crème avec le beurre et le sucre.
 2. Incorporez les bananes, puis la farine, le bicarbonate de soude en poudre, la levure, le sel et les noix.
