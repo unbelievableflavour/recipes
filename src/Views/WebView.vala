@@ -21,9 +21,13 @@ using WebKit;
 
 namespace Application {
     public class Widgets.WebView : WebKit.WebView {
+
+        public static GLib.Settings user_settings;
         public MainWindow parent_window;
         private Recipe recipe = new Recipe ();
+
         public WebView (MainWindow window) {
+            user_settings = new GLib.Settings (Constants.APPLICATION_NAME);
             Object (user_content_manager: new UserContentManager ());
             parent_window = window;
             visible = true;
@@ -34,8 +38,12 @@ namespace Application {
             settings_web.enable_page_cache = true;
             settings_web.enable_developer_extras = false;
             web_context.set_cache_model (WebKit.CacheModel.DOCUMENT_VIEWER);
+            if (user_settings.get_boolean ("use-dark-theme")) {
+                update_html_view ("dark");
+            } else {
+                update_html_view ("light");
+            }
 
-            update_html_view ();
             connect_signals ();
         }
 
@@ -47,24 +55,27 @@ namespace Application {
             return true;
         }
 
-        private string set_stylesheet () {
-            return Constants.WEBVIEW_STYLESHEET;
-       }
+        public string set_stylesheet (string theme = "light") {
+            if (theme == "light") {
+                return Constants.WEBVIEW_STYLESHEET_LIGHT;
+            }
+            return Constants.WEBVIEW_STYLESHEET_DARK;
+        }
 
         public void load_recipe (Recipe recipe) {
 
             if (recipe.get_name () != null) {
                 this.recipe = recipe;
             }
-            update_html_view ();
+            if (user_settings.get_boolean ("use-dark-theme")) {
+                update_html_view ("dark");
+            } else {
+                update_html_view ("light");
+            }
         }
 
         public Recipe get_recipe () {
             return this.recipe;
-        }
-
-        private string set_highlight_stylesheet () {
-            return Build.PKGDATADIR + "/highlight.js/styles/default.min.css";
         }
 
         private void connect_signals () {
@@ -181,10 +192,9 @@ namespace Application {
             return result;
         }
 
-        public void update_html_view () {
+        public void update_html_view (string theme = "light") {
             string html = "<!doctype html><meta charset=utf-8><head>";
-            html += "<link rel=\"stylesheet\" href=\"" + set_highlight_stylesheet () + "\"/>";
-            html += "<style>" + set_stylesheet () + "</style>";
+            html += "<style>" + set_stylesheet (theme) + "</style>";
             html += "</head><body><div class=\"markdown-body\">";
             html += process ();
             html += "</div></body></html>";

@@ -40,6 +40,7 @@ public class App:Granite.Application {
         );
 
         window = new MainWindow (this);
+        window.get_style_context ().add_class ("window");
         go_to_last_saved_position (window);
         go_to_last_saved_size (window);
 
