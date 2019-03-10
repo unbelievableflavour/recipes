@@ -46,6 +46,7 @@ public class StackManager : Object {
             if (stack.get_visible_child_name () == DETAIL_VIEW_ID) {
                 header_bar.show_language_mode (true);
                 header_bar.show_page_title (true);
+                header_bar.show_search_entry (false);
                 header_bar.show_return_button (true);
                 header_bar.show_download_button (true);
             }
@@ -53,13 +54,16 @@ public class StackManager : Object {
             if (stack.get_visible_child_name () == PROGRESS_VIEW_ID) {
                 header_bar.show_language_mode (false);
                 header_bar.show_page_title (false);
+                header_bar.show_search_entry (false);
                 header_bar.show_return_button (false);
                 header_bar.show_download_button (false);
             }
 
             if (stack.get_visible_child_name () == LIST_VIEW_ID) {
                 header_bar.show_language_mode (false);
+                header_bar.show_language_mode (false);
                 header_bar.show_page_title (false);
+                header_bar.show_search_entry (true);
                 header_bar.show_return_button (false);
                 header_bar.show_download_button (false);
             }

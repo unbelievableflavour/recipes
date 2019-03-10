@@ -6,7 +6,7 @@ public class PhotosFlowBox : Gtk.FlowBox {
     static PhotosFlowBox? instance;
 
     private StackManager stack_manager = StackManager.get_instance ();
-
+    Recipe[] all_recipes;
 
     PhotosFlowBox () {
         this.margin_end = 10;
@@ -30,10 +30,25 @@ public class PhotosFlowBox : Gtk.FlowBox {
     }
 
     public void get_installed_packages (Recipe[] recipes) {
+        this.all_recipes = recipes;
         stack_manager.get_stack ().visible_child_name = "list-view";
 
         empty_list ();
         foreach (Recipe recipe in recipes) {
+            var card = new PhotoCard (recipe);
+            this.add (card);
+            card.show_all ();
+        }
+    }
+
+    public void get_installed_packages_by_name (string search_string) {
+        stack_manager.get_stack ().visible_child_name = "list-view";
+
+        empty_list ();
+        foreach (Recipe recipe in all_recipes) {
+            if (! (recipe.get_name ().down ().contains (search_string.down ()))) {
+                continue;
+            }
             var card = new PhotoCard (recipe);
             this.add (card);
             card.show_all ();

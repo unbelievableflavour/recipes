@@ -12,6 +12,7 @@ public class HeaderBar : Gtk.HeaderBar {
     public Gtk.Button download_button = new Gtk.Button ();
     private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton ();
     private Gtk.Label title_label = new Gtk.Label ("");
+    private Gtk.SearchEntry search_entry = new Gtk.SearchEntry ();
 
     HeaderBar () {
         Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
@@ -19,9 +20,11 @@ public class HeaderBar : Gtk.HeaderBar {
         generate_language_button ();
         generate_return_button ();
         generate_download_button ();
+        generate_search_entry ();
 
         this.pack_start (return_button);
         this.pack_start (language_button);
+        this.pack_start (search_entry);
         this.pack_end (download_button);
         this.show_close_button = true;
 
@@ -52,6 +55,17 @@ public class HeaderBar : Gtk.HeaderBar {
         });
     }
 
+    private void generate_search_entry () {
+        search_entry.set_placeholder_text (_("Search for recipes"));
+        search_entry.set_tooltip_text (_("Search for names of recipes"));
+        search_entry.no_show_all = true;
+        search_entry.visible = false;
+        search_entry.search_changed.connect (() => {
+            PhotosFlowBox list_box = PhotosFlowBox.get_instance ();
+            list_box.get_installed_packages_by_name (search_entry.text);
+        });
+    }
+
     private void generate_download_button () {
         download_button.label = _("Download");
         download_button.no_show_all = true;
@@ -68,6 +82,10 @@ public class HeaderBar : Gtk.HeaderBar {
 
     public void show_page_title (bool answer) {
         title_label.visible = answer;
+    }
+
+    public void show_search_entry (bool answer) {
+        search_entry.visible = answer;
     }
 
     public void show_return_button (bool answer) {
