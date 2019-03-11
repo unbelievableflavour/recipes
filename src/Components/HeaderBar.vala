@@ -77,7 +77,7 @@ public class HeaderBar : Gtk.HeaderBar {
 
     private void generate_search_entry () {
         search_entry.set_placeholder_text (_("Search for recipes"));
-        search_entry.set_tooltip_text (_("Search for names of recipes"));
+        search_entry.tooltip_markup = Granite.markup_accel_tooltip ({"<Ctrl>F"}, _("Search for names of recipes"));
         search_entry.no_show_all = true;
         search_entry.visible = false;
         search_entry.search_changed.connect (() => {
