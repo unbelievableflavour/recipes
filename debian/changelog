@@ -1,3 +1,12 @@
+com.github.bartzaalberg.recipes (0.6.0) UNSTABLE; urgency=low
+
+  * Added search through recipes
+  * Added dark mode
+  * Added French translations thanks to NathanBnm
+  * Fixed alot of typos thanks to NathanBnm
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Mon, 11 Mar 2019 17:37:00 +0200
+
 com.github.bartzaalberg.recipes (0.5.0) UNSTABLE; urgency=low
 
   * Added new icon
