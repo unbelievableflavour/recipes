@@ -62,7 +62,7 @@ namespace Application.Constants {
 
     body{
       color: #232629;
-      background-color: #FCFCFC;
+      background-color: #F5F5F5;
       font-family: 'Open Sans', Helvetica, sans-serif;
       font-weight: 400;
       line-height: 1.5;
