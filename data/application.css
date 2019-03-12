@@ -27,3 +27,8 @@
     padding: 5px 10px;
     background: none;
 }
+
+.search-entry {
+   padding:5px;
+   border-radius:20px;
+}

@@ -41,12 +41,10 @@ public class HeaderBar : Gtk.HeaderBar {
 
         this.pack_start (return_button);
         this.pack_start (language_button);
-        this.pack_start (search_entry);
+        this.set_custom_title (search_entry);
         this.pack_end (mode_switch);
         this.pack_end (download_button);
         this.show_close_button = true;
-
-        this.set_custom_title (title_label);
         this.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
         this.get_style_context ().add_class ("header-bar");
     }
@@ -80,6 +78,8 @@ public class HeaderBar : Gtk.HeaderBar {
         search_entry.tooltip_markup = Granite.markup_accel_tooltip ({"<Ctrl>F"}, _("Search for names of recipes"));
         search_entry.no_show_all = true;
         search_entry.visible = false;
+        search_entry.hexpand = true;
+        search_entry.get_style_context ().add_class ("search-entry");
         search_entry.search_changed.connect (() => {
             PhotosFlowBox list_box = PhotosFlowBox.get_instance ();
             list_box.get_installed_packages_by_name (search_entry.text);
@@ -101,10 +101,16 @@ public class HeaderBar : Gtk.HeaderBar {
     }
 
     public void show_page_title (bool answer) {
+        if (answer == true) {
+            this.set_custom_title (title_label);
+        }
         title_label.visible = answer;
     }
 
     public void show_search_entry (bool answer) {
+        if (answer == true) {
+            this.set_custom_title (search_entry);
+        }
         search_entry.visible = answer;
     }
 
