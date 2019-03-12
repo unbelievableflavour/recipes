@@ -18,10 +18,13 @@ Vous voulez que votre propre recette apparaisse dans l'application ?
 ```
 {
     "id": "tres_belle_recette_de_viande",
-    "title": "Très belle recette de viande",
+    "title": {
+        "en": "Very nice meat recipe",
+        "fr": "Très belle recette de viande"
+    },
     "thumbnail": "https://www.lienimage.fr",
     "author": "vous",
-    "languages": ["fr"]
+    "languages": ["en", "fr"]
 },
 ```
 

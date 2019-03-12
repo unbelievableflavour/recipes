@@ -18,7 +18,9 @@ Do you want your own recipe to show up in the app?
 ```
 {
     "id": "very_nice_meat_recipe",
-    "title": "Very nice meat recipe",
+    "title": {
+        "en": "Very nice meat recipe"
+    },
     "thumbnail": "https://www.someimagelink.nl",
     "author": "you",
     "languages": ["en"]
@@ -26,6 +28,10 @@ Do you want your own recipe to show up in the app?
 ```
 
 Thats it! You can commit and create the pull request.
+
+### Remember
+
+Please make sure to always add English as that is used as fallback.
 
 ### Image
 
