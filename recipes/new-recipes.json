@@ -3,6 +3,7 @@
         "id": "bruschetta_with_tomato",
         "title": {
             "en": "Bruschetta with tomatoes",
+            "fr": "Bruschetta aux tomates",
             "nl": "Bruschetta met tomaten"
         },
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/bruschetta_with_tomato/image.jpg",
@@ -13,6 +14,7 @@
         "id": "figs_with_goat_cheese",
         "title": {
             "en": "Figs with goat cheese",
+            "fr": "Figues au fromage de chèvre",
             "nl": "Vijgen met geiten kaas"
         },
         "thumbnail": "https://static.ah.nl/static/recepten/img_011299_890x594_JPG.jpg",
@@ -23,6 +25,7 @@
         "id": "ravioli_lasagna",
         "title": {
             "en": "Ravioli lasagna",
+            "fr": "Lasagnes aux raviolis",
             "nl": "Ravioli lasagne"
         },
         "thumbnail": "https://www.lekkerensimpel.com/wp-content/uploads/2016/10/IMG_5458.jpg",
@@ -32,7 +35,8 @@
     {
         "id": "broccoli_beer_cheese_soup",
         "title": {
-            "en": "Broccoli beer cheese soup"
+            "en": "Broccoli beer cheese soup",
+            "fr": "Soupe à la bière, au fromage et au brocoli"
         },
         "thumbnail": "https://chowdown.io/images/broccoli-beer-cheese-soup.jpg",
         "author": "Clark Wimberly",
@@ -41,7 +45,8 @@
     {
         "id": "crockpot_buffalo_chicken",
         "title": {
-            "en": "Crockput buffalo chicken"
+            "en": "Crockput buffalo chicken",
+            "fr": "Poulet mijoté à la Buffalo"
         },
         "thumbnail": "https://chowdown.io/images/crockpot-buffalo-chicken.jpg",
         "author": "Clark Wimberly",
@@ -51,7 +56,8 @@
     {
         "id": "banana_bread",
         "title": {
-            "en": "Banana bread"
+            "en": "Banana bread",
+            "fr": "Pain à la banane"
         },
         "thumbnail": "https://chowdown.io/images/banana-bread.jpg",
         "author": "Clark Wimberly",
@@ -60,7 +66,8 @@
     {
         "id": "downtown_marinade",
         "title": {
-            "en": "Downtown marinade"
+            "en": "Downtown marinade",
+            "fr": "Marinade du centre-ville"
         },
         "thumbnail": "https://chowdown.io/images/downtown-marinade.jpg",
         "author": "Clark Wimberly",
@@ -69,7 +76,8 @@
     {
         "id": "green_chile_stew",
         "title": {
-            "en": "Green chile stew"
+            "en": "Green chile stew",
+            "fr": "Ragoût de piment vert"
         },
         "thumbnail": "https://chowdown.io/images/green-chile-stew.jpg",
         "author": "Clark Wimberly",
@@ -78,7 +86,8 @@
     {
         "id": "mongolian_beef",
         "title": {
-            "en": "Mongolian beef"
+            "en": "Mongolian beef",
+            "fr": "Bœuf mongol"
         },
         "thumbnail": "https://chowdown.io/images/mongolian-beef.jpg",
         "author": "Clark Wimberly",
@@ -87,7 +96,8 @@
     {
         "id": "new_york_strip",
         "title": {
-            "en": "New York strip"
+            "en": "New York strip",
+            "fr": "Bifteck(s) de de New York"
         },
         "thumbnail": "https://chowdown.io/images/new-york-strip.jpg",
         "author": "Clark Wimberly",
@@ -96,7 +106,8 @@
     {
         "id": "nilla_wafer_french_toast",
         "title": {
-            "en": "Nilla Wafer French Toast"
+            "en": "Nilla Wafer French Toast",
+            "fr": "Pain perdu à la gaufrette de Nilla"
         },
         "thumbnail": "https://chowdown.io/images/nilla-wafer.jpg",
         "author": "Clark Wimberly",
@@ -106,6 +117,7 @@
         "id": "one_minute_muffin",
         "title": {
             "en": "One Minute Muffin",
+            "fr": "Muffin minute",
             "nl": "Een Minuut Muffin"
         },
         "thumbnail": "https://chowdown.io/images/one-minute-muffin.jpg",
@@ -115,7 +127,8 @@
     {
         "id": "pork_steaks",
         "title": {
-            "en": "Pork Steaks"
+            "en": "Pork Steaks",
+            "fr": "Steaks de porc"
         },
         "thumbnail": "https://chowdown.io/images/pork-steaks.jpg",
         "author": "Clark Wimberly",
@@ -125,6 +138,7 @@
         "id": "red_berry_tart",
         "title": {
             "en": "Red Berry Tart",
+            "fr": "Tarte aux fruits rouges",
             "nl": "Rode Bessen Taart"
         },
         "thumbnail": "https://chowdown.io/images/red-berry-tart.jpg",
@@ -134,7 +148,8 @@
     {
         "id": "roasted_brussels_sprouts",
         "title": {
-            "en": "Roasted Brussels Sprouts"
+            "en": "Roasted Brussels Sprouts",
+            "fr": "Choux de Bruxelles rôtis"
         },
         "thumbnail": "https://chowdown.io/images/roasted-brussels-sprouts.jpg",
         "author": "Clark Wimberly",
@@ -143,7 +158,8 @@
     {
         "id": "roasted_okra",
         "title": {
-            "en": "Roasted Okra"
+            "en": "Roasted Okra",
+            "fr": "Gombo rôti"
         },
         "thumbnail": "https://chowdown.io/images/roasted-okra.jpg",
         "author": "Clark Wimberly",
@@ -153,6 +169,7 @@
         "id": "smashed_carrots",
         "title": {
             "en": "Smashed Carrots",
+            "fr": "Écrasé de carottes",
             "nl": "Gestampte Wortelen"
         },
         "thumbnail": "https://chowdown.io/images/smashed-carrots.jpg",
@@ -163,6 +180,7 @@
         "id": "stuffed_peppers",
         "title": {
             "en": "Stuffed Peppers",
+            "fr": "Poivrons farcis",
             "nl": "Gevulde Paprika's"
         },
         "thumbnail": "https://chowdown.io/images/stuffed-peppers.jpg",
@@ -172,7 +190,8 @@
     {
         "id": "your_own_recipe",
         "title": {
-            "en": "Your own recipe"
+            "en": "Your own recipe",
+            "fr": "Cuisiner"
         },
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
         "author": "Bart Zaalberg",
