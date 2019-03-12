@@ -44,7 +44,7 @@ public class StackManager : Object {
             var header_bar = HeaderBar.get_instance ();
 
             if (stack.get_visible_child_name () == DETAIL_VIEW_ID) {
-                header_bar.show_language_mode (true);
+                // header_bar.show_language_mode (true);
                 header_bar.show_page_title (true);
                 header_bar.show_search_entry (false);
                 header_bar.show_return_button (true);
@@ -52,7 +52,7 @@ public class StackManager : Object {
             }
 
             if (stack.get_visible_child_name () == PROGRESS_VIEW_ID) {
-                header_bar.show_language_mode (false);
+                // header_bar.show_language_mode (false);
                 header_bar.show_page_title (false);
                 header_bar.show_search_entry (false);
                 header_bar.show_return_button (false);
@@ -60,8 +60,7 @@ public class StackManager : Object {
             }
 
             if (stack.get_visible_child_name () == LIST_VIEW_ID) {
-                header_bar.show_language_mode (false);
-                header_bar.show_language_mode (false);
+                // header_bar.show_language_mode (false);
                 header_bar.show_page_title (false);
                 header_bar.show_search_entry (true);
                 header_bar.show_return_button (false);
@@ -75,7 +74,7 @@ public class StackManager : Object {
    public void set_detail_recipe (Recipe recipe) {
 
         var header_bar = HeaderBar.get_instance ();
-        header_bar.update_languages_button (recipe.get_languages ());
+        // header_bar.update_languages_button (recipe.get_languages ());
         header_bar.update_page_title (recipe);
         preview_view_content.load_recipe (recipe);
    }

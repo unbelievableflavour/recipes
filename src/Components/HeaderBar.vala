@@ -10,7 +10,7 @@ public class HeaderBar : Gtk.HeaderBar {
     private PDFExporter pdf_exporter = new PDFExporter ();
     public Gtk.Button return_button = new Gtk.Button ();
     public Gtk.Button download_button = new Gtk.Button ();
-    private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton ();
+    // private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton ();
     private Gtk.Label title_label = new Gtk.Label ("");
     public Gtk.SearchEntry search_entry = new Gtk.SearchEntry ();
     private static GLib.Settings settings;
@@ -18,7 +18,7 @@ public class HeaderBar : Gtk.HeaderBar {
         settings = new GLib.Settings (Constants.APPLICATION_NAME);
         Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
 
-        generate_language_button ();
+        // generate_language_button ();
         generate_return_button ();
         generate_download_button ();
         generate_search_entry ();
@@ -40,7 +40,7 @@ public class HeaderBar : Gtk.HeaderBar {
         });
 
         this.pack_start (return_button);
-        this.pack_start (language_button);
+        // this.pack_start (language_button);
         this.set_custom_title (search_entry);
         this.pack_end (mode_switch);
         this.pack_end (download_button);
@@ -56,12 +56,12 @@ public class HeaderBar : Gtk.HeaderBar {
         return instance;
     }
 
-    private void generate_language_button () {
-        language_button.no_show_all = true;
-        language_button.visible = false;
-        language_button.margin = 1;
-        language_button.notify["selected"].connect (on_language_button_changed);
-    }
+    // private void generate_language_button () {
+    //     language_button.no_show_all = true;
+    //     language_button.visible = false;
+    //     language_button.margin = 1;
+    //     language_button.notify["selected"].connect (on_language_button_changed);
+    // }
 
     private void generate_return_button () {
         return_button.label = _("Back");
@@ -96,9 +96,9 @@ public class HeaderBar : Gtk.HeaderBar {
         });
     }
 
-    public void show_language_mode (bool answer) {
-        language_button.visible = answer;
-    }
+    // public void show_language_mode (bool answer) {
+    //     language_button.visible = answer;
+    // }
 
     public void show_page_title (bool answer) {
         if (answer == true) {
@@ -122,33 +122,33 @@ public class HeaderBar : Gtk.HeaderBar {
         download_button.visible = answer;
     }
 
-    public void update_languages_button (Array<string> languages) {
-        language_button.clear_children ();
+    // public void update_languages_button (Array<string> languages) {
+    //     language_button.clear_children ();
 
-        for (int i = 0; i < languages.length ; i++) {
-            var lang = languages.index (i);
-            var label = new Gtk.Label (lang);
-            label.get_style_context ().add_class ("view-mode-button");
-            label.name = lang;
+    //     for (int i = 0; i < languages.length ; i++) {
+    //         var lang = languages.index (i);
+    //         var label = new Gtk.Label (lang);
+    //         label.get_style_context ().add_class ("view-mode-button");
+    //         label.name = lang;
 
-            language_button.append (label);
-        }
-    }
+    //         language_button.append (label);
+    //     }
+    // }
 
     public void update_page_title (Recipe recipe) {
         title_label.set_text (recipe.get_name () + " - " + recipe.get_author ());
     }
 
-    private void on_language_button_changed () {
-        var recipe = stack_manager.get_detail_recipe ();
-        var lang = recipe.get_languages ().index (language_button.selected);
+    // private void on_language_button_changed () {
+    //     var recipe = stack_manager.get_detail_recipe ();
+    //     var lang = recipe.get_languages ().index (language_button.selected);
 
-        var file = recipe_file_manager.get_recipe_file (recipe.get_id (), lang);
-        var markdown_file = recipe_file_manager.file_to_string (file);
+    //     var file = recipe_file_manager.get_recipe_file (recipe.get_id (), lang);
+    //     var markdown_file = recipe_file_manager.file_to_string (file);
 
-        recipe.set_markdown_file (markdown_file);
-        stack_manager.set_detail_recipe (recipe);
-    }
+    //     recipe.set_markdown_file (markdown_file);
+    //     stack_manager.set_detail_recipe (recipe);
+    // }
 
     public void detect_dark_mode (Gtk.Settings gtk_settings, Gtk.StyleContext context) {
         var web_view = stack_manager.get_webview ();
