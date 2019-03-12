@@ -1,3 +1,11 @@
+com.github.bartzaalberg.recipes (1.0.0) UNSTABLE; urgency=low
+
+  * Updated recipes.json with multilangual titles
+  * Styled searchbar
+  * Removed switching languages on the go
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Tue, 12 Mar 2019 20:51:00 +0200
+
 com.github.bartzaalberg.recipes (0.6.0) UNSTABLE; urgency=low
 
   * Added search through recipes
