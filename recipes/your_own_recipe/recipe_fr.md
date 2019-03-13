@@ -30,6 +30,10 @@ Vous voulez que votre propre recette apparaisse dans l'application ?
 
 C'est tout ! Vous pouvez valider et créer la Pull Request.
 
+### Remember
+
+Veuillez vous assurer de toujours ajouter l'anglais, car il est utilisé comme langue par défaut.
+
 ### Image
 
 Vous pouvez également ajouter une image dans le dossier et créer un lien vers celui-ci à partir du fichier Markdown et Json. Si vous devez créer un lien vers la page d'image originale, ajoutez simplement le code suivant sur la fiche détaillée en dessous de votre image.
