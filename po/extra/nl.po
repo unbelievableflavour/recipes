@@ -1,6 +1,17 @@
+# Dutch translations for the extra package.
+# Copyright (C) 2019 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.bartzaalberg.alias package.
+# Bart Zaalberg, 2019.
+#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-24 19:02+0100\n"
+"PO-Revision-Date: 2019-03-14 08:56+0100\n"
+"Last-Translator: Bart Zaalberg\n"
+"Language-Team: Dutch\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
