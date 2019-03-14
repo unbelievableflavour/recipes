@@ -6,7 +6,7 @@ public class HeaderBar : Gtk.HeaderBar {
     static HeaderBar? instance;
 
     private StackManager stack_manager = StackManager.get_instance ();
-    private RecipeFileManager recipe_file_manager = RecipeFileManager.get_instance ();
+    // private RecipeFileManager recipe_file_manager = RecipeFileManager.get_instance ();
     private PDFExporter pdf_exporter = new PDFExporter ();
     public Gtk.Button return_button = new Gtk.Button ();
     public Gtk.Button download_button = new Gtk.Button ();
@@ -34,9 +34,8 @@ public class HeaderBar : Gtk.HeaderBar {
         mode_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
         settings.bind ("use-dark-theme", mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
-        var context = get_style_context ();
         mode_switch.notify["active"].connect (() => {
-            detect_dark_mode (gtk_settings, context);
+            detect_dark_mode (gtk_settings);
         });
 
         this.pack_start (return_button);
@@ -150,7 +149,7 @@ public class HeaderBar : Gtk.HeaderBar {
     //     stack_manager.set_detail_recipe (recipe);
     // }
 
-    public void detect_dark_mode (Gtk.Settings gtk_settings, Gtk.StyleContext context) {
+    public void detect_dark_mode (Gtk.Settings gtk_settings) {
         var web_view = stack_manager.get_webview ();
         if (gtk_settings.gtk_application_prefer_dark_theme) {
             web_view.update_html_view ("dark");
