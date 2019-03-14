@@ -48,6 +48,14 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="1.0.1" date="2019-03-14">
+      <description>
+        <p>Fixed hardcoded Dutch language</p>
+        <ul>
+          <li>Fixed bug where overview was in Dutch</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0" date="2019-03-12">
       <description>
         <p>Translated titles support</p>
