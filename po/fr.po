@@ -80,4 +80,4 @@ msgstr "Rechercher des noms de recettes"
 
 #: src/Components/HeaderBar.vala:90
 msgid "Download"
-msgstr "Télécharger
+msgstr "Télécharger"
