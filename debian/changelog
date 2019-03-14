@@ -1,3 +1,10 @@
+com.github.bartzaalberg.recipes (1.0.2) UNSTABLE; urgency=low
+
+  * Fixed bug where overview was in Dutch
+  * Translated more of the application to Dutch and French
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Thu, 14 Mar 2019 17:50:00 +0200
+
 com.github.bartzaalberg.recipes (1.0.1) UNSTABLE; urgency=low
 
   * Fixed bug where overview was in Dutch

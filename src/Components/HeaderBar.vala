@@ -13,7 +13,11 @@ public class HeaderBar : Gtk.HeaderBar {
     // private Granite.Widgets.ModeButton language_button = new Granite.Widgets.ModeButton ();
     private Gtk.Label title_label = new Gtk.Label ("");
     public Gtk.SearchEntry search_entry = new Gtk.SearchEntry ();
+    private Granite.ModeSwitch dark_mode_switch = new Granite.ModeSwitch.from_icon_name (
+        "display-brightness-symbolic", "weather-clear-night-symbolic"
+    );
     private static GLib.Settings settings;
+
     HeaderBar () {
         settings = new GLib.Settings (Constants.APPLICATION_NAME);
         Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
@@ -22,26 +26,12 @@ public class HeaderBar : Gtk.HeaderBar {
         generate_return_button ();
         generate_download_button ();
         generate_search_entry ();
-
-        var gtk_settings = Gtk.Settings.get_default ();
-
-        var mode_switch = new Granite.ModeSwitch.from_icon_name (
-            "display-brightness-symbolic", "weather-clear-night-symbolic"
-        );
-        mode_switch.primary_icon_tooltip_text = _("Light mode");
-        mode_switch.secondary_icon_tooltip_text = _("Dark mode");
-        mode_switch.valign = Gtk.Align.CENTER;
-        mode_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
-        settings.bind ("use-dark-theme", mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-
-        mode_switch.notify["active"].connect (() => {
-            detect_dark_mode (gtk_settings);
-        });
+        generate_dark_mode_button ();
 
         this.pack_start (return_button);
         // this.pack_start (language_button);
         this.set_custom_title (search_entry);
-        this.pack_end (mode_switch);
+        this.pack_end (dark_mode_switch);
         this.pack_end (download_button);
         this.show_close_button = true;
         this.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
@@ -148,6 +138,20 @@ public class HeaderBar : Gtk.HeaderBar {
     //     recipe.set_markdown_file (markdown_file);
     //     stack_manager.set_detail_recipe (recipe);
     // }
+
+    private void generate_dark_mode_button () {
+        settings = new GLib.Settings (Constants.APPLICATION_NAME);
+        var gtk_settings = Gtk.Settings.get_default ();
+        dark_mode_switch.primary_icon_tooltip_text = _("Light mode");
+        dark_mode_switch.secondary_icon_tooltip_text = _("Dark mode");
+        dark_mode_switch.valign = Gtk.Align.CENTER;
+        dark_mode_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
+        settings.bind ("use-dark-theme", dark_mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+
+        dark_mode_switch.notify["active"].connect (() => {
+            detect_dark_mode (gtk_settings);
+        });
+    }
 
     public void detect_dark_mode (Gtk.Settings gtk_settings) {
         var web_view = stack_manager.get_webview ();
