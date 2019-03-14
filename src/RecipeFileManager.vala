@@ -83,8 +83,8 @@ public class RecipeFileManager : Object {
 
             var recipe_language = recipe_is_in_user_language (recipe.get_languages ());
             if (recipe_language != "en") {
-                if (object.get_member ("title").get_object ().has_member ("nl") ) {
-                    recipe.set_name (object.get_member ("title").get_object ().get_string_member ("nl"));
+                if (object.get_member ("title").get_object ().has_member (recipe_language) ) {
+                    recipe.set_name (object.get_member ("title").get_object ().get_string_member (recipe_language));
                 }
             }
 
