@@ -58,10 +58,26 @@ msgstr "Veuillez patienter"
 msgid "Operation is in progress"
 msgstr "Chargement en cours"
 
-#: src/Components/HeaderBar.vala:46
+#: src/Components/HeaderBar.vala:31
+msgid "Light mode"
+msgstr "Thème clair"
+
+#: src/Components/HeaderBar.vala:32
+msgid "Dark mode"
+msgstr "Thème sombre"
+
+#: src/Components/HeaderBar.vala:67
 msgid "Back"
 msgstr "Retour"
 
-#: src/Components/HeaderBar.vala:56
+#: src/Components/HeaderBar.vala:77
+msgid "Search for recipes"
+msgstr "Rechercher des recettes"
+
+#: src/Components/HeaderBar.vala:78
+msgid "Search for names of recipes"
+msgstr "Rechercher des noms de recettes"
+
+#: src/Components/HeaderBar.vala:90
 msgid "Download"
-msgstr "Télécharger"
+msgstr "Télécharger
