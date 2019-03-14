@@ -1,8 +1,21 @@
+# Dutch translations for the com.github.bartzaalberg.recipes package.
+# Copyright (C) 2019 THE com.github.bartzaalberg.recipes'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.bartzaalberg.recipes package.
+# Bart Zaalberg, 2019.
+#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: com.github.bartzaalberg.recipes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-27 12:25+0100\n"
+"PO-Revision-Date: 2019-03-14 08:55+0100\n"
+"Last-Translator: Bart Zaalberg\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: src/Services/PDFExporter.vala:28
 msgid "Print to File"
