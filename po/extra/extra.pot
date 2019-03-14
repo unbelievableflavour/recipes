@@ -41,12 +41,12 @@ msgstr ""
 msgid "Read awesome recipes"
 msgstr ""
 
-#: data/com.github.bartzaalberg.recipes.appdata.xml.in:13
-msgid "Easily add your own recipe by doing a PR"
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:14
+msgid "Choose between light and dark with dark mode"
 msgstr ""
 
-#: data/com.github.bartzaalberg.recipes.appdata.xml.in:14
-msgid "Read the recipes in multiple languages"
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:15
+msgid "Search for recipes"
 msgstr ""
 
 #: data/com.github.bartzaalberg.recipes.appdata.xml.in:30

@@ -60,11 +60,11 @@ msgstr "Operatie wordt momenteel uitgevoerd"
 
 #: src/Components/HeaderBar.vala:31
 msgid "Light mode"
-msgstr ""
+msgstr "Lichte modus"
 
 #: src/Components/HeaderBar.vala:32
 msgid "Dark mode"
-msgstr ""
+msgstr "Donkere modus"
 
 #: src/Components/HeaderBar.vala:67
 msgid "Back"
@@ -72,11 +72,11 @@ msgstr "Terug"
 
 #: src/Components/HeaderBar.vala:77
 msgid "Search for recipes"
-msgstr ""
+msgstr "Zoek naar recepten"
 
 #: src/Components/HeaderBar.vala:78
 msgid "Search for names of recipes"
-msgstr ""
+msgstr "Zoek naar namen van recepten"
 
 #: src/Components/HeaderBar.vala:90
 msgid "Download"
