@@ -1,4 +1,4 @@
-![Cuisiner](https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/cooking.jpeg)
+![Votre propre recette](https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/cooking.jpeg)
 
 # Ajoutez votre propre recette
 
@@ -30,7 +30,7 @@ Vous voulez que votre propre recette apparaisse dans l'application ?
 
 C'est tout ! Vous pouvez valider et créer la Pull Request.
 
-### Remember
+### Rappel
 
 Veuillez vous assurer de toujours ajouter l'anglais, car il est utilisé comme langue par défaut.
 
