@@ -191,10 +191,11 @@
         "id": "your_own_recipe",
         "title": {
             "en": "Your own recipe",
-            "fr": "Votre propre recette"
+            "fr": "Votre propre recette",
+            "nl": "Uw eigen recept"
         },
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
         "author": "Bart Zaalberg",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     }
 ]

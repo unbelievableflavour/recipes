@@ -130,6 +130,6 @@
         "title": "Your own recipe",
         "thumbnail": "https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/thumbnail.png",
         "author": "Bart Zaalberg",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     }
 ]

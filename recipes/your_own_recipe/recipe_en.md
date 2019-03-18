@@ -1,6 +1,6 @@
 ![Cooking](https://raw.githubusercontent.com/bartzaalberg/recipes/master/recipes/your_own_recipe/cooking.jpeg)
 
-# Add own recipe
+# Add your own recipe
 
 Do you want your own recipe to show up in the app?
 
@@ -35,7 +35,7 @@ Please make sure to always add English as that is used as fallback.
 
 ### Image
 
-You can also add an image in the folder and link to it from the markdown and json file. If you have to link to the original image page. just add the following code on the detailpage underneath your image.
+You can also add an image in the folder and link to it from the markdown and json file. If you have to link to the original image page. just add the following code to the markdown file underneath your image.
 ```
 [![Image src](https://raw.githubusercontent.com/bartzaalberg/recipes/master/data/icons/camera-icon.png#image-src)](
     YOUR IMAGE LINK HERE
