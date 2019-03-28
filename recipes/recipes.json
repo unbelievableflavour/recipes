@@ -39,7 +39,7 @@
         "title": "Banana bread",
         "thumbnail": "https://chowdown.io/images/banana-bread.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
     {
         "id": "downtown_marinade",

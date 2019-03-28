@@ -57,11 +57,12 @@
         "id": "banana_bread",
         "title": {
             "en": "Banana bread",
-            "fr": "Pain à la banane"
+            "fr": "Pain à la banane",
+            "nl": "Bananen brood"
         },
         "thumbnail": "https://chowdown.io/images/banana-bread.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
     {
         "id": "downtown_marinade",
