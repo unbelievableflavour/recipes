@@ -1,3 +1,9 @@
+com.github.bartzaalberg.recipes (1.1.0) UNSTABLE; urgency=low
+
+  * Changed recipes.json path
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Thu, 28 Mar 2019 17:35:00 +0200
+
 com.github.bartzaalberg.recipes (1.0.2) UNSTABLE; urgency=low
 
   * Fixed bug where overview was in Dutch
