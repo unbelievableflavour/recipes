@@ -36,11 +36,12 @@
         "id": "broccoli_beer_cheese_soup",
         "title": {
             "en": "Broccoli beer cheese soup",
-            "fr": "Soupe à la bière, au fromage et au brocoli"
+            "fr": "Soupe à la bière, au fromage et au brocoli",
+            "nl": "Broccoli bier kaas soep"
         },
         "thumbnail": "https://chowdown.io/images/broccoli-beer-cheese-soup.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
     {
         "id": "crockpot_buffalo_chicken",
