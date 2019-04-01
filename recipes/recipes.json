@@ -47,11 +47,12 @@
         "id": "crockpot_buffalo_chicken",
         "title": {
             "en": "Crockput buffalo chicken",
-            "fr": "Poulet mijoté à la Buffalo"
+            "fr": "Poulet mijoté à la Buffalo",
+            "nl": "Stoofpot buffalo kip"
         },
         "thumbnail": "https://chowdown.io/images/crockpot-buffalo-chicken.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
 
     {
