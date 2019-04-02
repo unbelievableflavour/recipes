@@ -70,11 +70,12 @@
         "id": "downtown_marinade",
         "title": {
             "en": "Downtown marinade",
-            "fr": "Marinade du centre-ville"
+            "fr": "Marinade du centre-ville",
+            "nl": "Marinade vanuit het stadscentrum"
         },
         "thumbnail": "https://chowdown.io/images/downtown-marinade.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr","nl"]
     },
     {
         "id": "green_chile_stew",
