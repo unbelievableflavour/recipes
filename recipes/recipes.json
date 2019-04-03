@@ -54,7 +54,6 @@
         "author": "Clark Wimberly",
         "languages": ["en", "fr", "nl"]
     },
-
     {
         "id": "banana_bread",
         "title": {
@@ -81,11 +80,12 @@
         "id": "green_chile_stew",
         "title": {
             "en": "Green chile stew",
-            "fr": "Ragoût de piment vert"
+            "fr": "Ragoût de piment vert",
+            "nl": "Groene peper stoofpot
         },
         "thumbnail": "https://chowdown.io/images/green-chile-stew.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
     {
         "id": "mongolian_beef",
