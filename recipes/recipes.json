@@ -101,11 +101,12 @@
         "id": "new_york_strip",
         "title": {
             "en": "New York strip",
-            "fr": "Bifteck(s) de de New York"
+            "fr": "Bifteck(s) de de New York",
+            "nl": "Entrecote"
         },
         "thumbnail": "https://chowdown.io/images/new-york-strip.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
     {
         "id": "nilla_wafer_french_toast",
