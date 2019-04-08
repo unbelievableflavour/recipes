@@ -81,7 +81,7 @@
         "title": {
             "en": "Green chile stew",
             "fr": "Ragoût de piment vert",
-            "nl": "Groene peper stoofpot
+            "nl": "Groene peper stoofpot"
         },
         "thumbnail": "https://chowdown.io/images/green-chile-stew.jpg",
         "author": "Clark Wimberly",
@@ -91,11 +91,12 @@
         "id": "mongolian_beef",
         "title": {
             "en": "Mongolian beef",
-            "fr": "Bœuf mongol"
+            "fr": "Bœuf mongol",
+            "nl": "Mongools rundvlees"
         },
         "thumbnail": "https://chowdown.io/images/mongolian-beef.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
     {
         "id": "new_york_strip",
