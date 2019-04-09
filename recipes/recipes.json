@@ -113,11 +113,12 @@
         "id": "nilla_wafer_french_toast",
         "title": {
             "en": "Nilla Wafer French Toast",
-            "fr": "Pain perdu à la gaufrette de Nilla"
+            "fr": "Pain perdu à la gaufrette de Nilla",
+            "nl": "Nilla Wafer Franse Toast"
         },
         "thumbnail": "https://chowdown.io/images/nilla-wafer.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
     {
         "id": "one_minute_muffin",

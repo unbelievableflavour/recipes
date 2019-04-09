@@ -22,7 +22,7 @@ Van Angie’s moeder
 
 # Stappen
 
-1. klop de eieren, room met boter en suiker
+1. Klop de eieren, room met boter en suiker
 2. Voeg de bananen toe, daarna het meel, baking soda/powder, zout, en noten
 3. Doe het mengsel in een ingevette pan
 4. Bak tot het bruin brown of gebarsten is en het mes schoon is
