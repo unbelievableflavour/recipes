@@ -135,11 +135,12 @@
         "id": "pork_steaks",
         "title": {
             "en": "Pork Steaks",
-            "fr": "Steaks de porc"
+            "fr": "Steaks de porc",
+            "nl": "Varkensbiefstuk"
         },
         "thumbnail": "https://chowdown.io/images/pork-steaks.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
     {
         "id": "red_berry_tart",
