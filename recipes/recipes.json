@@ -157,11 +157,12 @@
         "id": "roasted_brussels_sprouts",
         "title": {
             "en": "Roasted Brussels Sprouts",
-            "fr": "Choux de Bruxelles rôtis"
+            "fr": "Choux de Bruxelles rôtis",
+            "nl": "Gebrande spruitjes"
         },
         "thumbnail": "https://chowdown.io/images/roasted-brussels-sprouts.jpg",
         "author": "Clark Wimberly",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr", "nl"]
     },
     {
         "id": "roasted_okra",
