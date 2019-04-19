@@ -55,8 +55,8 @@ msgid "Please Wait"
 msgstr "Veuillez patienter"
 
 #: src/Views/ProgressView.vala:9
-msgid "Operation is in progress"
-msgstr "Chargement en cours"
+msgid "Recipes are being loaded"
+msgstr "Les recettes sont en cours de chargement"
 
 #: src/Components/HeaderBar.vala:31
 msgid "Light mode"
@@ -81,3 +81,7 @@ msgstr "Rechercher des noms de recettes"
 #: src/Components/HeaderBar.vala:90
 msgid "Download"
 msgstr "Télécharger"
+
+#: src/PhotoCard.vala:55
+msgid "Persons"
+msgstr "Personnes"

@@ -55,8 +55,8 @@ msgid "Please Wait"
 msgstr "Even geduld"
 
 #: src/Views/ProgressView.vala:9
-msgid "Operation is in progress"
-msgstr "Operatie wordt momenteel uitgevoerd"
+msgid "Recipes are being loaded"
+msgstr "Recepten worden geladen"
 
 #: src/Components/HeaderBar.vala:31
 msgid "Light mode"
@@ -81,3 +81,7 @@ msgstr "Zoek naar namen van recepten"
 #: src/Components/HeaderBar.vala:90
 msgid "Download"
 msgstr "Download"
+
+#: src/PhotoCard.vala:55
+msgid "Persons"
+msgstr "Personen"

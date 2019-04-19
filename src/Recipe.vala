@@ -5,6 +5,7 @@ public class Recipe : Object {
     private string author = "";
     private string thumbnail = "";
     private string markdown_file = "";
+    private int persons = 0;
     Array<string> languages;
 
     public string get_id () {
@@ -29,6 +30,14 @@ public class Recipe : Object {
 
     public void set_author (string author) {
         this.author = author;
+    }
+
+    public int get_persons () {
+        return this.persons;
+    }
+
+    public void set_persons (int persons) {
+        this.persons = persons;
     }
 
     public string get_thumbnail () {

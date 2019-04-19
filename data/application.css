@@ -28,6 +28,12 @@
     background: none;
 }
 
+.number-of-persons {
+    font-size: 1em;
+    font-weight: 300;
+    background: none;
+}
+
 .search-entry {
    padding:5px;
    border-radius:20px;

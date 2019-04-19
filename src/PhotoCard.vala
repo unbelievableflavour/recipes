@@ -50,8 +50,17 @@ public class PhotoCard : Gtk.Box {
         label_name.margin_top = 8;
         label_name.halign = Gtk.Align.CENTER;
 
+        var person_label = new Gtk.Label (
+            recipe.get_persons () != 0
+                ? recipe.get_persons ().to_string () + " " +_("Persons")
+                : ""
+        );
+        person_label.get_style_context ().add_class ("number-of-persons");
+        person_label.halign = Gtk.Align.CENTER;
+
         this.add (photo_button);
         this.add (label_name);
+        this.add (person_label);
     }
 }
 }
