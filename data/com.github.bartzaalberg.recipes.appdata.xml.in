@@ -48,6 +48,14 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="1.2.0" date="2019-07-01">
+      <description>
+        <p>Added number of people</p>
+        <ul>
+          <li>Added number of people</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.1.0" date="2019-03-28">
       <description>
         <p>Changed recipes.json path</p>

@@ -1,3 +1,9 @@
+com.github.bartzaalberg.recipes (1.2.0) STABLE; urgency=low
+
+  * Added dinner size number
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Mon, 01 Jul 2019 20:18:00 +0200
+
 com.github.bartzaalberg.recipes (1.1.0) UNSTABLE; urgency=low
 
   * Changed recipes.json path
