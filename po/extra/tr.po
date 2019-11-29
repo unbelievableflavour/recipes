@@ -1,0 +1,76 @@
+# Turkish translation for Recipies
+# Copyright (C) 2019 Recipies'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the recipies package.
+# recipies: com.github.bartzaalberg.recipes
+#
+# Sabri Ünal <libreajans@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.bartzaalberg.recipes extra\n"
+"Report-Msgid-Bugs-To: https://github.com/bartzaalberg/recipes/issues\n"
+"POT-Creation-Date: 2019-11-29 11:32+0300\n"
+"PO-Revision-Date: 2019-11-29 11:42+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:6
+#: data/com.github.bartzaalberg.recipes.desktop.in:3
+#: data/com.github.bartzaalberg.recipes.desktop.in:4
+msgid "Recipes"
+msgstr "Tarifler"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:7
+#: data/com.github.bartzaalberg.recipes.desktop.in:5
+msgid "A markdown recipes application"
+msgstr "Markdown tarif uygulaması"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:9
+msgid ""
+"Do some cooking with some easy recipes. All the recipes are written in "
+"simple markdown. Don't see what you like? Add your own!"
+msgstr ""
+"Kolay tariflerle biraz yemek yapın. Tüm tarifler markdown ile "
+"yazılmıştır. Sevdiğin tarifi bulamadın mı? Kendi ekle!"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:10
+msgid "Features:"
+msgstr "Özellikler:"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:12
+msgid "Read awesome recipes"
+msgstr "Şahane tarifleri oku"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:13
+msgid "Easily add your own recipe by doing a PR"
+msgstr "Kendi tarifinizi kolayca ekleyebilirsiniz"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:14
+msgid "Choose between light and dark with dark mode"
+msgstr "Karanlık veya açık kip arasında tercih yapabilirsiniz"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:15
+msgid "Search for recipes"
+msgstr "Tarifleri ara"
+
+#: data/com.github.bartzaalberg.recipes.appdata.xml.in:234
+msgid "Bart Zaalberg"
+msgstr "Bart Zaalberg"
+
+#: data/com.github.bartzaalberg.recipes.desktop.in:8
+msgid "com.github.bartzaalberg.recipes"
+msgstr "com.github.bartzaalberg.recipes"
+
+#: data/com.github.bartzaalberg.recipes.desktop.in:12
+msgid "cooking;recipes;"
+msgstr "yemek yapma;tarifler;aşçılık;"
+
+#: data/com.github.bartzaalberg.recipes.desktop.in:17
+msgid "About Recipes"
+msgstr "Tarifler Hakkında"
