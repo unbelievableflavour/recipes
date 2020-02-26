@@ -1,0 +1,90 @@
+# Turkish translation for Recipes
+# Copyright (C) 2019 Recipes'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Recipes package.
+# Recipes: com.github.bartzaalberg.recipes
+#
+# Sabri Ünal <libreajans@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.bartzaalberg.recipes master\n"
+"Report-Msgid-Bugs-To: https://github.com/bartzaalberg/recipes/issues\n"
+"POT-Creation-Date: 2019-11-29 11:33+0300\n"
+"PO-Revision-Date: 2019-11-29 11:44+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: src/PhotoCard.vala:55
+msgid "Persons"
+msgstr "Kişiler"
+
+#: src/Services/PDFExporter.vala:28
+msgid "Print to File"
+msgstr "Dosyaya Yazdır"
+
+#: src/Services/PDFExporter.vala:50
+msgid "Select destination markdown file"
+msgstr "Markdown dosyasının hedefini seçin"
+
+#: src/Services/PDFExporter.vala:52 src/Services/PDFExporter.vala:68
+#: src/Services/PDFExporter.vala:85
+msgid "Save"
+msgstr "Kaydet"
+
+#: src/Services/PDFExporter.vala:58
+msgid "Select markdown file to open"
+msgstr "Açılacak markdown dosyasını seçin"
+
+#: src/Services/PDFExporter.vala:60
+msgid "Open"
+msgstr "Aç"
+
+#: src/Services/PDFExporter.vala:66
+msgid "Select destination HTML file"
+msgstr "HTML dosyasının hedefini seçin"
+
+#: src/Services/PDFExporter.vala:83
+msgid "Select destination PDF file"
+msgstr "PDF dosyasının hedefini seçin"
+
+#: src/Services/PDFExporter.vala:108
+msgid "Cancel"
+msgstr "İptal Et"
+
+#: src/Views/ProgressView.vala:8
+msgid "Please Wait"
+msgstr "Lütfen Bekleyin"
+
+#: src/Views/ProgressView.vala:9
+msgid "Recipes are being loaded"
+msgstr "Tarifler yükleniyor"
+
+#: src/Components/HeaderBar.vala:56
+msgid "Back"
+msgstr "Geri"
+
+#: src/Components/HeaderBar.vala:66
+msgid "Search for recipes"
+msgstr "Tarifleri ara"
+
+#: src/Components/HeaderBar.vala:67
+msgid "Search for names of recipes"
+msgstr "Tariflerin adını ara"
+
+#: src/Components/HeaderBar.vala:79
+msgid "Download"
+msgstr "İndir"
+
+#: src/Components/HeaderBar.vala:145
+msgid "Light mode"
+msgstr "Açık kip"
+
+#: src/Components/HeaderBar.vala:146
+msgid "Dark mode"
+msgstr "Karanlık Kip"
