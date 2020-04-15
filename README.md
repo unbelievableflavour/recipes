@@ -1,3 +1,5 @@
+<a href="https://gitlocalize.com/repo/4332"> <img src="https://gitlocalize.com/repo/4332/whole_project/badge.svg" /> </a>
+
 # Recipes
 A markdown recipes application
 
