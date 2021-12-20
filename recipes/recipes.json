@@ -199,6 +199,14 @@
         "author": "Clark Wimberly",
         "languages": ["en", "fr", "nl"]
     },
+    { "id": "chocolate_waffle_cones",
+     "title": {
+         "en": "Chocolate Waffle Cones" 
+     },
+     "thumbnail": "https://i.ibb.co/8zB7jZd/2017-Summer-Chocolate-Waffle-Cones-df8586bb4c14d18f77324f7452f392cd.jpg",
+     "author": "Brayden Price",
+     "languages": ["en"]
+    },
     {
         "id": "your_own_recipe",
         "title": {
